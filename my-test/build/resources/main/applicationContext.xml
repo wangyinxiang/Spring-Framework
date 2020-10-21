@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+	<!-- 配置一个 bean -->
+	<bean id="helloWorld" class="com.spring.learn.entity.HelloWorld">
+		<!-- 为属性赋值 -->
+		<property name="user" value="Jerry"></property>
+	</bean>
+
+	<!-- 配置一个 bean -->
+	<bean id="helloWorld2" class="com.spring.learn.entity.HelloWorld">
+		<!-- 为属性赋值 -->
+		<!-- 通过属性注入: 通过 setter 方法注入属性值 -->
+		<property name="user" value="Tom"></property>
+	</bean>
+
+	<!-- 通过构造器注入属性值 -->
+	<bean id="helloWorld3" class="com.spring.learn.entity.HelloWorld">
+		<!-- 要求: 在 Bean 中必须有对应的构造器.  -->
+		<constructor-arg value="Mike"></constructor-arg>
+	</bean>
+</beans>
