@@ -37,7 +37,7 @@ import javax.servlet.ServletContextListener;
  * @see #setContextInitializers
  * @see org.springframework.web.WebApplicationInitializer
  * @see org.springframework.web.util.Log4jConfigListener
- */
+ */ // 实现 Servlet 容器启动和关闭时，分别初始化和销毁 WebApplicationContext 容器
 public class ContextLoaderListener extends ContextLoader implements ServletContextListener {
 
 	/**

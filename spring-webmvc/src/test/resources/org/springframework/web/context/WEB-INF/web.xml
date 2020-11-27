@@ -7,7 +7,7 @@
 
 	<distributable/>
 
-	<!--
+	<!-- Spring配置
 	<listener>
 		<listener-class>com.wrox.j2eedd.ticket.web.SessionCleanupListener</listener-class>
 	</listener>

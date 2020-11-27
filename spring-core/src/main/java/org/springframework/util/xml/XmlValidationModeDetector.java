@@ -30,7 +30,7 @@ import org.springframework.util.StringUtils;
  * @author Rob Harrop
  * @author Juergen Hoeller
  * @since 2.0
- */
+ */ // XML 验证模式探测器
 public class XmlValidationModeDetector {
 
 	/**
@@ -90,17 +90,19 @@ public class XmlValidationModeDetector {
 		// Peek into the file to look for DOCTYPE.
 		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 		try {
-			boolean isDtdValidated = false;
+			boolean isDtdValidated = false; // 是否为 DTD 校验模式。默认为，非 DTD 模式，即 XSD 模式
 			String content;
+			// <0> 循环，逐行读取 XML 文件的内容
 			while ((content = reader.readLine()) != null) {
 				content = consumeCommentTokens(content);
-				if (this.inComment || !StringUtils.hasText(content)) {
+				if (this.inComment || !StringUtils.hasText(content)) { // 跳过，如果是注释，或者下一行是空
 					continue;
 				}
-				if (hasDoctype(content)) {
+				if (hasDoctype(content)) {  // <1> 包含 DOCTYPE 为 DTD 模式
 					isDtdValidated = true;
 					break;
 				}
+				// <2>  hasOpeningTag 方法会校验，如果这一行有 < ，并且 < 后面跟着的是字母，则返回 true
 				if (hasOpeningTag(content)) {
 					// End of meaningful data...
 					break;
@@ -111,6 +113,7 @@ public class XmlValidationModeDetector {
 		catch (CharConversionException ex) {
 			// Choked on some character encoding...
 			// Leave the decision up to the caller.
+			// <3> 返回 VALIDATION_AUTO 模式
 			return VALIDATION_AUTO;
 		}
 		finally {

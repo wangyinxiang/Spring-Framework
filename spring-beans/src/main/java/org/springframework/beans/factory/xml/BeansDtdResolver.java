@@ -59,7 +59,7 @@ public class BeansDtdResolver implements EntityResolver {
 					"] and system ID [" + systemId + "]");
 		}
 
-		if (systemId != null && systemId.endsWith(DTD_EXTENSION)) {
+		if (systemId != null && systemId.endsWith(DTD_EXTENSION)) { // 必须以 .dtd 结尾
 			int lastPathSeparator = systemId.lastIndexOf('/');
 			int dtdNameStart = systemId.indexOf(DTD_NAME, lastPathSeparator);
 			if (dtdNameStart != -1) {
@@ -85,7 +85,7 @@ public class BeansDtdResolver implements EntityResolver {
 			}
 		}
 
-		// Fall back to the parser's default behavior.
+		// Fall back to the parser's default behavior. // 使用默认行为，从网络上下载
 		return null;
 	}
 

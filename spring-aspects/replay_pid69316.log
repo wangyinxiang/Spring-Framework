@@ -1,0 +1,828 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 422 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 320465 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3953 1 7553 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/Throwable printStackTrace ()V 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 1017 1 29154 0 0
+ciMethod java/util/AbstractCollection <init> ()V 337 1 29812 0 0
+ciMethod java/util/ArrayList <init> (I)V 833 1 625 0 0
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 673 1 7737 0 0
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 673 1 7737 0 0
+ciMethod java/util/ArrayList grow (I)V 105 1 1474 0 0
+ciMethod java/util/ArrayList hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/util/ArrayList size ()I 1097 1 137 0 0
+ciMethod java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 209 1 2016 0 0
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 673 1 6854 0 768
+ciMethod java/lang/Math max (II)I 489 1 1947 0 -1
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2489 1 2365 0 0
+ciMethod java/util/Arrays copyOf ([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; 2633 1 2421 0 -1
+ciMethodData java/lang/Object <init> ()V 2 320487 orig 264 88 50 86 100 0 0 0 0 128 4 218 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 49 15 39 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/io/PrintStream println (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 6873 orig 264 88 50 86 100 0 0 0 0 56 241 230 20 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 41 212 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 8 0x70002 0x1a85 0x1a0004 0x0 0x18f50a10 0x1 0x18f50ac0 0x12 oops 2 4 org/aspectj/bridge/IMessage$Kind 6 java/util/logging/Level$KnownLevel
+ciMethodData java/util/ArrayList ensureCapacityInternal (I)V 2 7737 orig 264 88 50 86 100 0 0 0 0 176 230 230 20 0 0 0 0 144 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 41 239 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 64 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 8 0x70007 0x1aa9 0x30 0x33c 0xd0002 0x33c 0x130002 0x1de5 oops 0
+ciMethodData java/util/ArrayList ensureExplicitCapacity (I)V 2 7739 orig 264 88 50 86 100 0 0 0 0 96 231 230 20 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 57 239 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 17 0 0 0 0 0 data 6 0x110007 0x1834 0x30 0x5b3 0x160002 0x5b3 oops 0
+ciMethodData java/util/ArrayList grow (I)V 2 1474 orig 264 88 50 86 100 0 0 0 0 40 232 230 20 0 0 0 0 176 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 169 45 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 96 0 0 0 255 255 255 255 7 0 15 0 0 0 0 0 data 12 0xf0007 0x273 0x20 0x342 0x180007 0x5b5 0x30 0x0 0x1c0002 0x0 0x260002 0x5b5 oops 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 29818 orig 264 88 50 86 100 0 0 0 0 152 97 230 20 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 0 0 0 129 162 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x7450 oops 0
+ciMethodData java/util/AbstractList <init> ()V 2 29154 orig 264 88 50 86 100 0 0 0 0 48 78 230 20 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 0 0 25 139 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x7163 oops 0
+ciMethodData java/util/ArrayList toArray ([Ljava/lang/Object;)[Ljava/lang/Object; 2 2077 orig 264 88 50 86 100 0 0 0 0 168 238 230 20 0 0 0 0 64 2 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26 0 0 0 25 64 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 240 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 30 0x60007 0x7dd 0x90 0x26 0x120005 0x0 0x18703fb0 0x26 0x0 0x0 0x150002 0x26 0x180004 0x0 0x0 0x0 0x0 0x0 0x270002 0x7dd 0x300007 0x7dd 0x50 0x0 0x390004 0x0 0x0 0x0 0x0 0x0 oops 1 6 [Lorg/aspectj/apache/bcel/classfile/annotation/AnnotationGen;
+ciMethodData java/util/Arrays copyOf ([Ljava/lang/Object;I)[Ljava/lang/Object; 2 2365 orig 264 88 50 86 100 0 0 0 0 232 131 235 20 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55 1 0 0 49 64 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 112 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 14 0x30005 0x12 0x1909cf80 0x7e0 0x187021d0 0x14 0x60002 0x806 0x90004 0x0 0x1909cf80 0x12 0x0 0x0 oops 3 2 [Ljava/lang/Object; 4 [Ljava/lang/String; 10 [Ljava/lang/Object;
+ciMethodData java/util/ArrayList <init> (I)V 1 661 orig 264 88 50 86 100 0 0 0 0 24 227 230 20 0 0 0 0 128 2 0 0 104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 0 0 0 105 17 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 48 1 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 38 0x10002 0x22d 0x50007 0xd 0x38 0x220 0x100003 0x220 0x100 0x140007 0x0 0x38 0xd 0x1e0003 0xd 0xc8 0x290002 0x0 0x2e0005 0x0 0x0 0x0 0x0 0x0 0x320005 0x0 0x0 0x0 0x0 0x0 0x350005 0x0 0x0 0x0 0x0 0x0 0x380002 0x0 oops 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/problem/ProblemReporter corruptedSignature (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[CI)V 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/problem/ProblemReporter isClassPathCorrect ([[CLorg/aspectj/org/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration;Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/problem/ProblemReporter undefinedTypeVariableSignature ([CLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment computePackageFrom ([[CZ)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding; 697 1785 318 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment convertToRawType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;Z)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 2033 1 451 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment convertUnresolvedBinaryToRawType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 2129 1 2025 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment createUnresolvedAnnotation (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ElementValuePair;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 601 1 74 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment createArrayType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;I[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ArrayBinding; 193 1 67 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment createMissingType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding;[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MissingTypeBinding; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment usesAnnotatedTypeSystem ()Z 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment createParameterizedType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ParameterizedTypeBinding; 945 1 308 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment createAnnotatedType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getCachedType ([[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 3129 6393 2341 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getNonNullByDefaultAnnotationName ()[[C 289 1 64 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getPackage0 ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding; 2105 1 3237 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getType ([[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2241 2457 294 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeArgumentsFromSignature (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 929 73 302 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromCompoundName ([[CZZ)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 3169 1 2139 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromConstantPoolName ([CIIZ[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2009 1 1981 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromConstantPoolName ([CIIZ[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 1761 1 1687 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromSignature ([CIIZLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 2073 65 2695 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment annotateType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromTypeSignature (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 1169 97 887 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromTypeVariable (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;I[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 297 1 198 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryType enrichWithExternalAnnotationsFor (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct u2At (I)I 2601 1 23364 0 160
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct utf8At (II)[C 1529 17601 1046 0 1152
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation equals ([[C[[C)Z 3137 1273 8350 0 480
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation equals ([C[C)Z 2193 569 5426 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation equals ([C[CII)Z 289 1 205 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation hashCode ([C)I 2369 13681 5860 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation indexOf (C[C)I 1697 1 1019 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation indexOf (C[CI)I 1057 52489 2382 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation prefixEquals ([C[C)Z 673 337 504 0 0
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation replaceOnCopy ([CCC)[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation splitOn (C[CII)[[C 913 70113 1170 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/core/compiler/CharOperation subarray ([CII)[C 401 1 250 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding enclosingType ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 1041 1 130 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding isMemberType ()Z 1705 1 3139 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding typeVariables ()[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding isUnresolvedType ()Z 1049 1 131 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding <init> ()V 2137 1 3687 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding getField ([CZ)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/FieldBinding; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding getMemberType ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 3161 1689 408 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isAnnotationType ()Z 2529 1 1499 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isEnum ()Z 521 1 291 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isInterface ()Z 2097 1 2757 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isStatic ()Z 217 1 671 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isStrictfp ()Z 3345 1 1499 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding methods ()[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding storeAnnotationHolder (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder;)V 2097 1 1419 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding storedAnnotations (Z)Lorg/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding <init> ([CLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding;ILorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V 881 1 67 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding setTypeAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Z)V 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding <init> (I[CLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 2761 1 1376 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding <init> (I[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 393 1 129 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding getDefaultValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding isAbstract ()Z 697 1 962 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding isNative ()Z 1073 1 335 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding setAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V 2065 1 1176 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding declaringClass_aroundBody39$advice (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/aspectj/runtime/internal/AroundClosure;)Ljava/lang/Object; 2065 1 1326 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding getOwningClass ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 3089 1 5224 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem getArrayType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;I[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ArrayBinding; 3369 1 469 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem fixTypeVariableDeclaringElement (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding;)V 17 65 57 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotatableTypeSystem flattenedAnnotations ([[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 81 1 460 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ParameterizedTypeBinding genericType ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 25 1 6 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MissingTypeBinding <init> (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding;[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V 9 1 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MissingTypeBinding setMissingSuperclass (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 9 1 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding convertMemberValue (Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;[[[CZ)Ljava/lang/Object; 73 17 131 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createAnnotation (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 41 25 74 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;[[[C)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 2129 41 3177 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding resolveType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;Z)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 585 1 980 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getTypeAnnotationWalker ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryTypeAnnotation;I)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 2865 1 1557 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getNullDefaultFrom ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;)I 2065 57 1176 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createMethod (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod;Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryType;J[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding; 1633 81921 1176 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createTypeVariables (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;Z[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;Z)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding; 33 753 61 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding initializeTypeVariable (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)V 849 1 64 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding isPrototype ()Z 2193 1 17403 0 96
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding storedAnnotations (Z)Lorg/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable; 4097 1 1485 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getNonNullByDefaultValue (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;)I 0 0 1 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding signature2qualifiedTypeName ([C)[[C 305 1 66 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getNullDefault ()I 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding addType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 1049 1 411 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding getPackage0 ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding; 2209 1 5303 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding getType0 ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2129 1 4338 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding <init> ([[CLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding;)V 609 1 259 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding resolve (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;Z)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 105 1 76 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ElementValuePair <init> ([CLjava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;)V 1465 1 141 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfPackage get ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding; 2489 2521 6056 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable <init> (I)V 329 1 96 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 1313 521 394 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable removeKey (Ljava/lang/Object;)Ljava/lang/Object; 153 17 117 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable rehash ()V 169 1113 28 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/ast/Annotation nullLocationBitsFromAnnotationValue (Ljava/lang/Object;)I 0 0 1 0 -1
+ciMethodData org/aspectj/org/eclipse/jdt/core/compiler/CharOperation equals ([C[C)Z 2 5426 orig 264 88 50 86 100 0 0 0 0 104 31 55 21 0 0 0 0 40 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 1 0 0 1 161 0 0 113 52 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 216 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 27 0x20007 0x140c 0x20 0x14 0x80007 0x0 0x40 0x140c 0xc0007 0x140c 0x20 0x0 0x150007 0x19e 0x20 0x126e 0x1d0003 0x19e 0x38 0x260007 0x4f0 0x20 0x136 0x2f0007 0x626 0xffffffffffffffe0 0x68 oops 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation getTypeName ()[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation getElementValuePairs ()[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryElementValuePair; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IGenericMethod getModifiers ()I 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IGenericMethod isConstructor ()Z 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IGenericMethod getArgumentNames ()[[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getAnnotations ()[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getDefaultValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getExceptionTypeNames ()[[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getGenericSignature ()[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getMethodDescriptor ()[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getParameterAnnotations (I)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getSelector ()[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getTagBits ()J 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod getTypeAnnotations ()[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryTypeAnnotation; 0 0 1 0 -1
+ciMethodData org/aspectj/org/eclipse/jdt/core/compiler/CharOperation equals ([[C[[C)Z 2 8350 orig 264 88 50 86 100 0 0 0 0 48 29 55 21 0 0 0 0 56 2 0 0 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 1 0 0 177 248 0 0 49 106 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 232 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 29 0x20007 0x1e27 0x20 0xef 0x80007 0x0 0x40 0x1e27 0xc0007 0x1e27 0x20 0x0 0x150007 0x870 0x20 0x15b7 0x1d0003 0x870 0x48 0x260002 0xc04 0x290007 0x4d6 0x20 0x72e 0x320007 0xc04 0xffffffffffffffd0 0x142 oops 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo getParameterAnnotations (I)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation; 1057 1 132 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo getSelector ()[C 2257 1 6841 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo isConstructor ()Z 2257 1 4532 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toMethodReturn ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toReceiver ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toTypeParameter (ZI)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toTypeParameterBounds (ZI)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toMethodParameter (S)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toThrows (I)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toNextArrayDimension ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker toNextNestedType ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker getAnnotationsAtCursor (I)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation; 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toThrows (I)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 153 1 145 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toMethodParameter (S)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 2625 1 1250 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toMethodReturn ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 2081 1 1254 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toReceiver ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 2065 1 1279 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 getAnnotationsAtCursor (I)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation; 1281 1 2118 0 0
+ciMethod org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings ajc$interMethodDispatch1$org_aspectj_ajdt_internal_compiler_lookup_OwningClassSupportForMethodBindings$org_aspectj_org_eclipse_jdt_internal_compiler_lookup_MethodBinding$getOwningClass (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 3073 1 4654 0 -1
+ciMethod org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings aspectOf ()Lorg/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings; 3033 1 4654 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder <init> ()V 3425 1 1407 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder storeAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder; 2065 2625 1326 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder setAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder; 4041 1 1315 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$AnnotationMethodHolder <init> ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V 497 1 96 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$MethodHolder <init> ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)V 497 1 96 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$MethodHolder setAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder; 497 1 96 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper <init> ([CZ)V 353 1 288 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper atEnd ()Z 337 1 270 0 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper computeEnd ()I 2049 1 980 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper nextWord ()[C 0 0 1 0 -1
+ciMethodData org/aspectj/org/eclipse/jdt/core/compiler/CharOperation hashCode ([C)I 2 37218 orig 264 88 50 86 100 0 0 0 0 192 37 55 21 0 0 0 0 64 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 6 0 0 225 173 0 0 161 85 4 0 181 11 0 0 74 67 0 0 2 0 0 0 2 0 18 0 2 0 0 0 24 1 0 0 255 255 255 255 7 224 4 0 0 0 0 0 data 35 0x4e007 0x15a5 0x38 0x18 0x90003 0x18 0x18 0x130007 0xc38 0x70 0x985 0x180003 0x985 0x18 0x280007 0x21b0 0x0 0x985 0x2b0003 0x985 0x88 0x350007 0x647 0x38 0x5f1 0x3c0003 0x5f1 0x18 0x420003 0xc38 0x18 0x540007 0x53a4 0x0 0xc38 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct u2At (I)I 2 23364 orig 264 88 50 86 100 0 0 0 0 72 27 50 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69 1 0 0 249 207 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryElementValuePair getName ()[C 0 0 1 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryElementValuePair getValue ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct utf8At (II)[C 2 18685 orig 264 88 50 86 100 0 0 0 0 0 30 50 21 0 0 0 0 24 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 8 0 0 185 26 0 0 41 3 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 14 0 2 0 0 0 192 0 0 0 255 255 255 255 3 0 18 0 0 0 0 0 data 24 0x120003 0x357 0x70 0x2e0007 0x3d1b 0x58 0x0 0x360007 0x0 0x38 0x0 0x650003 0x0 0x18 0x8f0007 0x3d1b 0xffffffffffffffa8 0x357 0x950007 0x357 0x30 0x0 0xa50002 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfPackage get ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding; 2 8090 orig 264 88 50 86 100 0 0 0 0 48 235 200 26 0 0 0 0 8 2 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 1 0 0 137 179 0 0 249 242 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 184 0 0 0 255 255 255 255 2 0 7 0 0 0 0 0 data 23 0x70002 0x1671 0x110003 0x1671 0x88 0x190007 0x7e3 0x50 0x15e9 0x1f0002 0x15e9 0x220007 0xb 0x20 0x15de 0x310007 0x7e5 0x20 0x9 0x3f0007 0x1dcc 0xffffffffffffff90 0x93 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding <init> ()V 2 3687 orig 264 88 50 86 100 0 0 0 0 56 241 56 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 1 0 0 225 106 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xd5c oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding isPrototype ()Z 2 17479 orig 264 88 50 86 100 0 0 0 0 136 53 197 26 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 1 0 0 169 25 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 4 0x50007 0x0 0x20 0x4335 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/core/compiler/CharOperation splitOn (C[CII)[[C 2 71405 orig 264 88 50 86 100 0 0 0 0 32 80 55 21 0 0 0 0 8 3 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 34 0 0 1 33 0 0 137 165 7 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 23 0 2 0 0 0 168 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 53 0x10007 0x420 0x38 0x0 0x50003 0x0 0x18 0xe0007 0x0 0x40 0x420 0x130007 0x420 0x20 0x0 0x200003 0x420 0x38 0x280007 0x6b8d 0x20 0xaac 0x340007 0x7639 0xffffffffffffffe0 0x420 0x470003 0x420 0x78 0x4f0007 0x6b8d 0x60 0xaac 0x5d0004 0x0 0x176e6ce0 0xaac 0x0 0x0 0x6f0002 0xaac 0x7e0007 0x7639 0xffffffffffffffa0 0x420 0x8b0004 0x0 0x176e6ce0 0x420 0x0 0x0 0x990002 0x420 oops 2 35 [C 47 [C
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo getSelector ()[C 2 6841 orig 264 88 50 86 100 0 0 0 0 16 162 245 26 0 0 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26 1 0 0 249 204 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 176 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 22 0x40007 0x14cc 0xb0 0x4d3 0xd0005 0x60 0x1873f300 0x457 0x1873f670 0x1c 0x200005 0x60 0x1873f300 0x457 0x1873f670 0x1c 0x230005 0x60 0x1873f300 0x457 0x1873f670 0x1c oops 6 6 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 8 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfoWithAnnotations 12 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 14 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfoWithAnnotations 18 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 20 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfoWithAnnotations
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getPackage0 ([C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding; 2 3237 orig 264 88 50 86 100 0 0 0 0 248 65 36 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 1 0 0 241 92 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 6 0x50005 0x0 0x18a3d5f0 0xb9e 0x0 0x0 oops 1 2 org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfPackage
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo isConstructor ()Z 2 4532 orig 264 88 50 86 100 0 0 0 0 40 165 245 26 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26 1 0 0 209 132 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 112 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 14 0x10005 0x138 0x1873f300 0xf30 0x1873f670 0x32 0xa0007 0xf06 0x40 0x194 0x110007 0x0 0x20 0x194 oops 2 2 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 4 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfoWithAnnotations
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/ClassSignature getTypeName ()[C 81 1 10 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature getTypeName ()[C 57 1 7 0 -1
+ciMethod org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature getEnumConstantName ()[C 57 1 7 0 -1
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;[[[C)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 2 3304 orig 264 88 50 86 100 0 0 0 0 32 219 196 26 0 0 0 0 64 2 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0 0 241 94 0 0 233 96 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 232 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 29 0x10007 0x318 0x38 0x8c6 0x50003 0x8c6 0x18 0xc0007 0x44 0x38 0xb9a 0x120003 0xb9a 0x18 0x1e0003 0xbde 0x58 0x2b0002 0x45 0x2e0004 0x0 0x18d5b8a0 0x45 0x0 0x0 0x350007 0x45 0xffffffffffffffc0 0xbde oops 1 21 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedAnnotationBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createAnnotation (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 1 74 orig 264 88 50 86 100 0 0 0 0 216 217 196 26 0 0 0 0 112 3 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 41 2 0 0 129 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 24 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 67 0x10005 0x0 0x1999f1e0 0x45 0x0 0x0 0x80007 0x45 0x38 0x0 0xc0003 0x0 0x18 0x150007 0x10 0x38 0x35 0x1b0003 0x35 0x18 0x280003 0x45 0xc8 0x370005 0x0 0x18becdc0 0x10 0x0 0x0 0x400005 0x0 0x18becdc0 0x10 0x0 0x0 0x480002 0x10 0x4c0002 0x10 0x4f0004 0x0 0x199234e0 0x10 0x0 0x0 0x570007 0x10 0xffffffffffffff50 0x45 0x5b0005 0x0 0x1999f1e0 0x45 0x0 0x0 0x6d0005 0x0 0x1873f510 0x45 0x0 0x0 0x770005 0x0 0x1873f510 0x45 0x0 0x0 oops 7 2 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo 25 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ElementValuePairInfo 31 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ElementValuePairInfo 41 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ElementValuePair 51 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo 57 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 63 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromSignature ([CIIZLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 2 3172 orig 264 88 50 86 100 0 0 0 0 16 79 36 21 0 0 0 0 48 6 0 0 64 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 113 88 0 0 225 98 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 46 0 2 0 0 0 176 4 0 0 255 255 255 255 3 0 3 0 0 0 0 0 data 150 0x30003 0xb0e 0x18 0x110007 0x166 0x0 0xb0e 0x190007 0x9a9 0x158 0x165 0x210007 0x165 0x138 0x0 0x270003 0x0 0xf8 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x350002 0x0 0x3f0007 0x0 0x70 0x0 0x440007 0x0 0x20 0x0 0x540004 0x0 0x0 0x0 0x0 0x0 0x570005 0x0 0x0 0x0 0x0 0x0 0x650007 0x0 0xffffffffffffff20 0x0 0x6a0007 0x69a 0x20 0x474 0x770007 0x663 0x1f0 0x4ab 0x7d0008 0x14 0x0 0x188 0x0 0x128 0x0 0xf8 0x0 0x110 0x0 0x140 0x5 0xb0 0x0 0x158 0x0 0x170 0x3 0xe0 0x1 0xc8 0xd50003 0x1f6 0x150 0xdd0003 0xde 0x138 0xe50003 0xdd 0x120 0xed0003 0x33 0x108 0xf50003 0x29 0xf0 0xfd0003 0x36 0xd8 0x1050003 0x1c 0xc0 0x10d0003 0x33 0xa8 0x1150003 0x19 0x90 0x1200005 0x0 0x0 0x0 0x0 0x0 0x1230003 0x0 0x48 0x1300005 0x0 0x1873f510 0x663 0x0 0x0 0x1370007 0x9d2 0x50 0x13c 0x13c0007 0x13c 0x30 0x0 0x1430002 0x0 0x14f0007 0x9d2 0x30 0x0 0x1590002 0x0 0x1600007 0x86d 0x60 0x165 0x16d0002 0x165 0x1700005 0x0 0x1873fb00 0x165 0x0 0x0 oops 2 118 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 146 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 getAnnotationsAtCursor (I)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation; 2 2118 orig 264 88 50 86 100 0 0 0 0 160 60 246 26 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 0 0 0 49 61 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromConstantPoolName ([CIIZ[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2 2282 orig 264 88 50 86 100 0 0 0 0 16 75 36 21 0 0 0 0 184 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 251 0 0 0 121 63 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 17 0 2 0 0 0 64 1 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 40 0x20007 0x6a7 0x20 0x148 0xd0002 0x7ef 0x170007 0x7ef 0xa0 0x0 0x220003 0x0 0x60 0x2c0002 0x0 0x2f0007 0x0 0x38 0x0 0x350003 0x0 0x38 0x3f0007 0x0 0xffffffffffffffb8 0x0 0x490002 0x7ef 0x530007 0x7ef 0x60 0x0 0x5d0002 0x0 0x600004 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment annotateType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 1 0 orig 264 88 50 86 100 0 0 0 0 32 81 36 21 0 0 0 0 184 4 0 0 208 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 88 3 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 107 0x10005 0x0 0x0 0x0 0x0 0x0 0xb0007 0x0 0x1a0 0x0 0xf0005 0x0 0x0 0x0 0x0 0x0 0x120007 0x0 0x80 0x0 0x160004 0x0 0x0 0x0 0x0 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x250003 0x0 0xb0 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x300007 0x0 0x38 0x0 0x330003 0x0 0x68 0x380005 0x0 0x0 0x0 0x0 0x0 0x3f0007 0x0 0xffffffffffffff68 0x0 0x480003 0x0 0x118 0x500005 0x0 0x0 0x0 0x0 0x0 0x570002 0x0 0x5e0007 0x0 0x90 0x0 0x640007 0x0 0x70 0x0 0x690007 0x0 0x20 0x0 0x790004 0x0 0x0 0x0 0x0 0x0 0x7b0005 0x0 0x0 0x0 0x0 0x0 0x880007 0x0 0xffffffffffffff00 0x0 0x8d0007 0x0 0x50 0x0 0x940005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment convertUnresolvedBinaryToRawType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 2 2025 orig 264 88 50 86 100 0 0 0 0 16 24 36 21 0 0 0 0 104 8 0 0 104 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 0 0 249 54 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 46 0 2 0 0 0 24 7 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 227 0x10005 0x49 0x1873d1e0 0x50c 0x1873f840 0x18a 0x40008 0xe 0x2 0xf8 0x0 0x80 0x0 0x80 0x0 0x80 0x0 0x80 0x0 0x80 0x0 0x80 0x430005 0x0 0x0 0x0 0x0 0x0 0x480005 0x0 0x0 0x0 0x0 0x0 0x4c0003 0x0 0x38 0x540007 0x528 0x20 0x16e 0x5e0005 0x0 0x1873d1e0 0x39e 0x1873f840 0x18a 0x610008 0x8 0x1 0x110 0x0 0x50 0x0 0x68 0x0 0x50 0x890003 0x4 0xc0 0x8d0004 0x0 0x0 0x0 0x0 0x0 0x940005 0x0 0x0 0x0 0x0 0x0 0x970005 0x0 0x0 0x0 0x0 0x0 0x9c0003 0x0 0x18 0xa30005 0x0 0x1873d1e0 0x39e 0x1873f840 0x18a 0xaa0007 0x1e 0x100 0x50a 0xaf0007 0x506 0xc8 0x4 0xb40005 0x0 0x1873d1e0 0x4 0x0 0x0 0xb70004 0x0 0x1873d1e0 0x4 0x0 0x0 0xbb0005 0x0 0x1873f510 0x4 0x0 0x0 0xbe0003 0x4 0x18 0xc40003 0x50a 0x2e0 0xca0005 0x0 0x1873f510 0x1e 0x0 0x0 0xcd0004 0x0 0x1873d1e0 0x1e 0x0 0x0 0xd60002 0x1e 0xd90007 0x1e 0xb8 0x0 0xdf0004 0x0 0x0 0x0 0x0 0x0 0xe20005 0x0 0x0 0x0 0x0 0x0 0xe50007 0x0 0x38 0x0 0xe90003 0x0 0x18 0xf20007 0x1e 0xc8 0x0 0xf70005 0x0 0x0 0x0 0x0 0x0 0xfa0004 0x0 0x0 0x0 0x0 0x0 0xff0005 0x0 0x0 0x0 0x0 0x0 0x1040003 0x0 0xf0 0x10b0002 0x1e 0x10e0007 0x1e 0xc8 0x0 0x1130005 0x0 0x0 0x0 0x0 0x0 0x1160004 0x0 0x0 0x0 0x0 0x0 0x11c0005 0x0 0x0 0x0 0x0 0x0 0x1210003 0x0 0x18 0x12a0002 0x528 0x12d0007 0x524 0x88 0x4 0x1310007 0x4 0x68 0x0 0x1380005 0x0 0x0 0x0 0x0 0x0 0x13b0003 0x0 0x18 oops 11 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 4 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 43 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 45 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 83 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 85 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 97 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 103 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 109 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 121 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 127 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isStatic ()Z 1 710 orig 264 88 50 86 100 0 0 0 0 8 148 57 21 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 0 0 0 89 21 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 64 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 8 0x80007 0x4d 0x40 0x25e 0x150007 0x180 0x20 0xde oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getCachedType ([[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2 5280 orig 264 88 50 86 100 0 0 0 0 160 58 36 21 0 0 0 0 232 2 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 3 0 0 241 60 0 0 9 140 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 24 0 2 0 0 0 152 1 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 51 0x30007 0x79e 0x50 0x0 0xd0005 0x0 0x0 0x0 0x0 0x0 0x150005 0x0 0x1873f510 0x79e 0x0 0x0 0x1a0007 0x1 0x40 0x79d 0x210007 0x79d 0x20 0x0 0x2e0003 0x79d 0x88 0x350005 0x0 0x199db5a0 0xa07 0x0 0x0 0x3a0007 0x13 0x40 0x9f4 0x410007 0x9f4 0x20 0x0 0x4c0007 0xa07 0xffffffffffffff90 0x78a 0x560005 0x0 0x199db5a0 0x78a 0x0 0x0 oops 3 12 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 29 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding 47 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromCompoundName ([[CZZ)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2 2282 orig 264 88 50 86 100 0 0 0 0 80 73 36 21 0 0 0 0 112 3 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 140 1 0 0 241 58 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 16 0 2 0 0 0 16 2 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 66 0x20005 0x0 0x1873f510 0x75e 0x0 0x0 0x90007 0x6a5 0xa8 0xb9 0xf0002 0xb9 0x1b0002 0xb9 0x210007 0xb9 0x20 0x0 0x350005 0x0 0x199db5a0 0xb9 0x0 0x0 0x380003 0xb9 0x150 0x400007 0x6a5 0xb8 0x0 0x440007 0x0 0x50 0x0 0x540005 0x0 0x0 0x0 0x0 0x0 0x5a0005 0x0 0x0 0x0 0x0 0x0 0x5f0003 0x0 0x98 0x630007 0x11b 0x80 0x58a 0x690005 0x0 0x1873f510 0x58a 0x0 0x0 0x6c0004 0x0 0x1873d1e0 0x432 0x1873f840 0x155 oops 5 2 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 20 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding 56 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 62 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 64 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment createMissingType (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/PackageBinding;[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MissingTypeBinding; 1 0 orig 264 88 50 86 100 0 0 0 0 24 32 36 21 0 0 0 0 24 3 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 192 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 56 0x10007 0x0 0x50 0x0 0x70002 0x0 0xf0007 0x0 0x20 0x0 0x1e0002 0x0 0x270007 0x0 0xd0 0x0 0x2e0005 0x0 0x0 0x0 0x0 0x0 0x350007 0x0 0x50 0x0 0x3d0005 0x0 0x0 0x0 0x0 0x0 0x450005 0x0 0x0 0x0 0x0 0x0 0x4a0005 0x0 0x0 0x0 0x0 0x0 0x510007 0x0 0x30 0x0 0x5a0002 0x0 0x650005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isInterface ()Z 2 2776 orig 264 88 50 86 100 0 0 0 0 32 143 57 21 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 145 78 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 4 0x80007 0x834 0x20 0x19e oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createMethod (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod;Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryType;J[[[C)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding; 2 26714 orig 264 88 50 86 100 0 0 0 0 200 10 197 26 0 0 0 0 8 27 0 0 224 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 0 0 97 30 0 0 209 2 2 0 0 0 0 0 0 0 0 0 2 0 0 0 16 0 46 1 2 0 0 0 72 25 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 809 0x10005 0x0 0x1873d1e0 0x3cc 0x0 0x0 0x40007 0x3cc 0x30 0x0 0xb0002 0x0 0x100005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x200007 0x3cc 0x20 0x0 0x2c0005 0x0 0x1873d1e0 0x3cc 0x0 0x0 0x2f0007 0x2b7 0x60 0x115 0x380007 0x113 0x40 0x2 0x400007 0x0 0x20 0x2 0x610005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x6d0007 0x0 0x38 0x3cc 0x710003 0x3cc 0x18 0x790005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x800005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x850002 0x3cc 0x880002 0x3cc 0x8e0005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x970007 0xd0 0x750 0x2fc 0x9b0005 0x1e 0x1873f300 0x2a5 0x1873f3b0 0x39 0xa70007 0x2fc 0x50 0x0 0xb20005 0x0 0x0 0x0 0x0 0x0 0xbf0003 0x2fc 0x78 0xc60007 0xd5 0x60 0x2d2 0xd00007 0x1c9 0x40 0x109 0xe00007 0x1501 0x0 0x109 0xf00007 0x3a7 0xffffffffffffffa0 0x2fc 0xf70005 0x1e 0x1873f300 0x2a5 0x1873f3b0 0x39 0xfc0007 0x2c5 0x110 0x37 0x1000005 0x11 0x1873d1e0 0x26 0x0 0x0 0x1030007 0x35 0x70 0x2 0x1070005 0x0 0x1873d1e0 0x2 0x0 0x0 0x10a0007 0x2 0x20 0x0 0x1110005 0x0 0x1873d1e0 0x37 0x0 0x0 0x1140007 0x37 0x20 0x0 0x1230007 0x161 0x218 0x19b 0x1370007 0x0 0x20 0x19b 0x14d0003 0x19b 0x1b8 0x15d0007 0xd5 0x0 0x2d2 0x1640007 0x1c9 0x40 0x109 0x1740007 0x1501 0x0 0x109 0x17b0007 0x0 0x140 0x2d2 0x19d0005 0x0 0x1873f460 0x2d2 0x0 0x0 0x1a20005 0x0 0x1873f510 0x2d2 0x0 0x0 0x1a50004 0x0 0x1873f5c0 0x11f 0x1873d1e0 0x99 0x1a80007 0x0 0x90 0x2d2 0x1b80005 0x0 0x1873f300 0x2ce 0x1873f670 0x4 0x1c30002 0x2d2 0x1c60004 0x0 0x1873f720 0x2d2 0x0 0x0 0x1d40007 0x2d2 0xfffffffffffffe60 0x19b 0x1d80005 0x1e 0x1873f300 0x2a5 0x1873f3b0 0x39 0x1e10007 0x0 0x108 0x2fc 0x1eb0007 0x2b8 0xe8 0x44 0x1f80003 0x44 0xa8 0x2110005 0x0 0x1873f460 0x53 0x0 0x0 0x2160005 0x0 0x1873f510 0x53 0x0 0x0 0x2190004 0x0 0x1873d1e0 0x32 0x1873f840 0x21 0x2210007 0x53 0xffffffffffffff70 0x44 0x2250005 0x1e 0x1873f300 0x2a5 0x1873f3b0 0x39 0x22a0007 0x37 0x80 0x2c5 0x23e0005 0x0 0x1873f460 0x2c5 0x0 0x0 0x2430005 0x0 0x1873f510 0x2c5 0x0 0x0 0x24a0007 0x2fc 0x38 0x0 0x24e0003 0x0 0x18 0x2580007 0x2fc 0xba8 0x0 0x25d0007 0x0 0xb88 0x0 0x2640007 0x0 0x38 0x0 0x26c0003 0x0 0xb48 0x2850002 0x0 0x28c0003 0x0 0xb20 0x2940007 0xd0 0x50 0x0 0x29f0005 0x0 0x0 0x0 0x0 0x0 0x2b60002 0xd0 0x2c80007 0x9c 0x30 0x34 0x2df0002 0x34 0x2f30005 0x11 0x1873f300 0xb0 0x1873f8f0 0xf 0x2f80002 0xd0 0x2fb0007 0x0 0x80 0xd0 0x3020005 0x11 0x1873f300 0xb0 0x1873f8f0 0xf 0x3070002 0xd0 0x30a0007 0xd0 0x3f0 0x0 0x30e0005 0x0 0x0 0x0 0x0 0x0 0x31a0002 0x0 0x3270002 0x0 0x3340002 0x0 0x3410002 0x0 0x34c0002 0x0 0x35e0005 0x0 0x0 0x0 0x0 0x0 0x3650005 0x0 0x0 0x0 0x0 0x0 0x36c0007 0x0 0x2f0 0x0 0x3720007 0x0 0x2d0 0x0 0x3780003 0x0 0x1c0 0x37e0003 0x0 0x188 0x3910002 0x0 0x3940007 0x0 0x160 0x0 0x3a10002 0x0 0x3b00002 0x0 0x3b30005 0x0 0x0 0x0 0x0 0x0 0x3b90005 0x0 0x0 0x0 0x0 0x0 0x3bd0005 0x0 0x0 0x0 0x0 0x0 0x3c00005 0x0 0x0 0x0 0x0 0x0 0x3c30005 0x0 0x0 0x0 0x0 0x0 0x3c60005 0x0 0x0 0x0 0x0 0x0 0x3d10007 0x0 0xfffffffffffffe90 0x0 0x3dc0007 0x0 0xfffffffffffffe58 0x0 0x3e10007 0x0 0x38 0x0 0x3e50003 0x0 0x18 0x3fd0002 0x0 0x40b0002 0x0 0x4120003 0x0 0x78 0x41d0005 0x0 0x0 0x0 0x0 0x0 0x4220005 0x0 0x0 0x0 0x0 0x0 0x4320007 0x0 0x258 0xd0 0x44d0007 0x8b 0x38 0x45 0x45b0003 0x45 0x218 0x4630002 0x8b 0x46b0003 0x8b 0xa8 0x4850005 0x0 0x1873f460 0x106 0x0 0x0 0x48a0005 0x0 0x1873f510 0x106 0x0 0x0 0x48d0005 0x0 0x1873f9a0 0x106 0x0 0x0 0x49e0007 0x106 0xffffffffffffff70 0x8b 0x4ae0005 0x0 0x1873f9a0 0x8b 0x0 0x0 0x4be0005 0x0 0x1873f9a0 0x8b 0x0 0x0 0x4cc0007 0x0 0xc8 0x8b 0x4d90003 0x8b 0x88 0x4e30005 0x0 0x1873f300 0xfc 0x1873f670 0xa 0x4ee0002 0x106 0x4f10004 0x0 0x1873f720 0x106 0x0 0x0 0x4f90007 0x106 0xffffffffffffff90 0x8b 0x5090005 0x0 0x1873f460 0xd0 0x0 0x0 0x50e0005 0x0 0x1873f510 0xd0 0x0 0x0 0x5150005 0x0 0x1873fa50 0xd0 0x0 0x0 0x5180007 0xd0 0x1c8 0x0 0x5280007 0x0 0x1a8 0x0 0x5300002 0x0 0x5570005 0x0 0x0 0x0 0x0 0x0 0x55c0005 0x0 0x0 0x0 0x0 0x0 0x55f0005 0x0 0x0 0x0 0x0 0x0 0x5650005 0x0 0x0 0x0 0x0 0x0 0x5680007 0x0 0x40 0x0 0x5780007 0x0 0xffffffffffffff20 0x0 0x57d0005 0x0 0x0 0x0 0x0 0x0 0x5890005 0x0 0x0 0x0 0x0 0x0 0x58d0003 0x0 0x150 0x5910005 0x11 0x1873f300 0xb0 0x1873f8f0 0xf 0x59a0007 0x0 0x108 0xd0 0x5a40007 0xb5 0xe8 0x1b 0x5b10003 0x1b 0xa8 0x5ca0005 0x0 0x1873f460 0x25 0x0 0x0 0x5cf0005 0x0 0x1873f510 0x25 0x0 0x0 0x5d20004 0x0 0x1873f840 0x21 0x1873d1e0 0x4 0x5da0007 0x25 0xffffffffffffff70 0x1b 0x5de0005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x5e30007 0x389 0x48 0x43 0x5f10002 0x43 0x5f40003 0x43 0x58 0x5fe0005 0x3b 0x1873f300 0x312 0x1873f3b0 0x3c 0x60a0002 0x389 0x6110005 0x0 0x1873f460 0x3cc 0x0 0x0 0x61a0005 0x0 0x1873f460 0x3cc 0x0 0x0 0x6230007 0x0 0x80 0x3cc 0x6290007 0x3cc 0x60 0x0 0x63b0002 0x0 0x63e0005 0x0 0x0 0x0 0x0 0x0 0x64e0007 0x0 0x228 0x3cc 0x6520005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x65b0007 0x391 0x40 0x3b 0x6610007 0x3b 0xd0 0x0 0x6650005 0x0 0x1873f300 0x355 0x1873f3b0 0x3c 0x66a0007 0x34e 0x80 0x43 0x66f0005 0x0 0x1873f460 0x43 0x0 0x0 0x6780005 0x0 0x1873f460 0x43 0x0 0x0 0x6890002 0x3cc 0x68f0005 0x0 0x1873d1e0 0x3cc 0x0 0x0 0x6920007 0x361 0x78 0x6b 0x6960005 0x24 0x1873f3b0 0x3c 0x1873f300 0xb 0x6a20002 0x6b 0x6a50003 0x6b 0x18 0x6ad0005 0x0 0x1873d6d0 0x3cc 0x0 0x0 0x6b20007 0x0 0x20 0x3cc 0x6be0007 0x0 0x50 0x3cc 0x6c80005 0x3b 0x1873f300 0x355 0x1873f3b0 0x3c 0x6e00003 0x3cc 0x48 0x6f10005 0x0 0x1873fb00 0x37 0x0 0x0 0x6fb0007 0x37 0xffffffffffffffd0 0x3cc oops 76 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 14 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 16 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 24 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 42 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 44 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 55 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 57 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 61 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 63 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 71 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 73 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 81 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 83 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 116 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 118 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 126 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 136 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 146 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 183 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 189 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 195 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BaseTypeBinding 197 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 205 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 207 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfoWithAnnotations 213 [Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 223 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 225 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 240 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 246 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 252 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 254 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 262 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 264 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 272 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 278 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 329 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 331 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfoWithAnnotations 341 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 343 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfoWithAnnotations 491 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 497 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 503 java/util/ArrayList 513 java/util/ArrayList 519 java/util/ArrayList 532 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 534 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfoWithAnnotations 540 [Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding; 550 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 556 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 562 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper 625 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 627 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfoWithAnnotations 642 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 648 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 654 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 656 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 664 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 666 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 679 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 681 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 687 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 693 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 719 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 721 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 733 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 735 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 743 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 749 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 757 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 767 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 769 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 778 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding 792 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/MethodInfo 794 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationMethodInfo 801 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getNullDefaultFrom ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;)I 1 1180 orig 264 88 50 86 100 0 0 0 0 72 242 196 26 0 0 0 0 120 2 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 209 28 0 0 185 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 40 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 37 0x10007 0x35f 0x128 0x3b 0x80005 0x0 0x1873f510 0x3b 0x0 0x0 0x160003 0x3b 0xb8 0x210005 0x0 0x1999f1e0 0x3b 0x0 0x0 0x260002 0x3b 0x2e0002 0x3b 0x310007 0x3b 0x50 0x0 0x360005 0x0 0x0 0x0 0x0 0x0 0x410007 0x3b 0xffffffffffffff60 0x3b oops 2 6 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 15 org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/AnnotationInfo
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getTypeAnnotationWalker ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryTypeAnnotation;I)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 2 1563 orig 264 88 50 86 100 0 0 0 0 16 241 196 26 0 0 0 0 152 3 0 0 32 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 1 0 0 169 37 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 31 0 2 0 0 0 64 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 72 0x10005 0x0 0x1873d1e0 0x4b5 0x0 0x0 0x40007 0x4b5 0x30 0x0 0xb0002 0x0 0x100007 0x4b5 0x90 0x0 0x150007 0x0 0x70 0x0 0x1c0005 0x0 0x0 0x0 0x0 0x0 0x1f0007 0x0 0xc0 0x0 0x2c0007 0x4b5 0xa0 0x0 0x300007 0x0 0x50 0x0 0x340005 0x0 0x0 0x0 0x0 0x0 0x3a0007 0x0 0x30 0x0 0x460002 0x0 0x580007 0x0 0xa0 0x0 0x5c0007 0x0 0x50 0x0 0x600005 0x0 0x0 0x0 0x0 0x0 0x660007 0x0 0x30 0x0 0x730002 0x0 0x7c0002 0x0 oops 1 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding isMemberType ()Z 2 3148 orig 264 88 50 86 100 0 0 0 0 80 164 56 21 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 213 0 0 0 185 91 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 10 0 0 0 0 0 data 4 0xa0007 0xaf5 0x20 0x82 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isEnum ()Z 1 295 orig 264 88 50 86 100 0 0 0 0 56 139 57 21 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65 0 0 0 49 7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 4 0x80007 0xd6 0x20 0x10 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toMethodParameter (S)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 1 1253 orig 264 88 50 86 100 0 0 0 0 0 54 246 26 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 1 0 0 233 28 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toThrows (I)Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 1 145 orig 264 88 50 86 100 0 0 0 0 176 52 246 26 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 241 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toMethodReturn ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 1 1254 orig 264 88 50 86 100 0 0 0 0 112 57 246 26 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 17 31 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper <init> ([CZ)V 1 296 orig 264 88 50 86 100 0 0 0 0 224 106 246 26 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 225 7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xfc oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding createTypeVariables (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;Z[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;Z)[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding; 1 1719 orig 264 88 50 86 100 0 0 0 0 64 17 197 26 0 0 0 0 104 5 0 0 128 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94 0 0 0 25 2 0 0 201 50 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 248 3 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 127 0x10005 0x0 0x1873d1e0 0x43 0x0 0x0 0x40007 0x43 0x30 0x0 0xb0002 0x0 0x250002 0x43 0x330003 0x43 0x2a0 0x3b0008 0xa 0x582 0x128 0x48 0xb0 0x3 0x60 0x0 0x128 0x46 0x78 0x5b0003 0x3 0x228 0x630007 0x3 0x210 0x43 0x660003 0x43 0x210 0x6b0007 0x2 0x1d8 0x46 0x740007 0x0 0x1b8 0x46 0x800007 0x0 0x198 0x46 0x860003 0x46 0x178 0x8b0007 0x53c 0x160 0x46 0x970002 0x46 0xa20002 0x46 0xb40002 0x46 0xc20005 0x0 0x1873f460 0x46 0x0 0x0 0xc80005 0x0 0x1873f460 0x46 0x0 0x0 0xd20002 0x46 0xd90007 0x0 0x70 0x46 0xe10007 0x46 0x50 0x0 0xf20005 0x0 0x0 0x0 0x0 0x0 0xf90005 0x0 0x1873f9a0 0x46 0x0 0x0 0x1040007 0x613 0xfffffffffffffd78 0x0 0x1110005 0x0 0x1873f9a0 0x43 0x0 0x0 0x1160007 0x38 0x20 0xb 0x1220003 0x43 0x58 0x1350005 0x0 0x1873f460 0x46 0x0 0x0 0x13a0002 0x46 0x1440007 0x46 0xffffffffffffffc0 0x43 oops 6 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 66 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 72 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 94 java/util/ArrayList 104 java/util/ArrayList 117 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1
+ciMethodData org/aspectj/org/eclipse/jdt/core/compiler/CharOperation prefixEquals ([C[C)Z 1 530 orig 264 88 50 86 100 0 0 0 0 176 62 55 21 0 0 0 0 160 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 241 13 0 0 97 5 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 10 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x6d 0x20 0x151 0xd0003 0x6d 0x38 0x160007 0x43 0x20 0x68 0x1f0007 0xab 0xffffffffffffffe0 0x5 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getTypeFromTypeSignature (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;[[[CLorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding; 1 1489 orig 264 88 50 86 100 0 0 0 0 168 87 36 21 0 0 0 0 120 11 0 0 168 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 146 0 0 0 65 30 0 0 41 46 0 0 0 0 0 0 0 0 0 0 2 0 0 0 7 0 77 0 2 0 0 0 0 10 0 0 255 255 255 255 3 0 3 0 0 0 0 0 data 320 0x30003 0x3c8 0x18 0x1e0007 0x68 0x0 0x3c8 0x260007 0x360 0x158 0x68 0x2e0007 0x68 0x138 0x0 0x340003 0x0 0xf8 0x3a0005 0x0 0x0 0x0 0x0 0x0 0x420002 0x0 0x4c0007 0x0 0x70 0x0 0x510007 0x0 0x20 0x0 0x610004 0x0 0x0 0x0 0x0 0x0 0x640005 0x0 0x0 0x0 0x0 0x0 0x720007 0x0 0xffffffffffffff20 0x0 0x800007 0x2cf 0x298 0xf9 0x8c0005 0x0 0x1873fa50 0xf9 0x0 0x0 0x950003 0xf9 0x58 0xa70002 0x7e 0xaa0007 0x7 0x30 0x77 0xba0002 0x77 0xc30007 0x7e 0xffffffffffffffc0 0x82 0xca0004 0x0 0x1873d1e0 0x82 0x0 0x0 0xcd0007 0x0 0x68 0x82 0xd10004 0x0 0x1873d1e0 0x82 0x0 0x0 0xd90003 0x82 0x48 0xdd0005 0x0 0x0 0x0 0x0 0x0 0xe70003 0x82 0x58 0xfa0002 0x82 0xfd0007 0x0 0x30 0x82 0x10e0002 0x82 0x1170007 0x82 0xffffffffffffffc0 0x0 0x11b0005 0x0 0x0 0x0 0x0 0x0 0x1200007 0x0 0xfffffffffffffe90 0x0 0x12f0002 0x0 0x1340005 0x0 0x0 0x0 0x0 0x0 0x1430005 0x0 0x1873fa50 0x2cf 0x0 0x0 0x14e0007 0x1a5 0x38 0x12a 0x1520003 0x12a 0x18 0x15e0005 0x0 0x1873f510 0x2cf 0x0 0x0 0x1650007 0x12a 0x98 0x1a5 0x16a0007 0xb 0x38 0x19a 0x16f0003 0x19a 0x58 0x1790002 0xb 0x17c0005 0x0 0x1873f510 0xb 0x0 0x0 0x1820004 0x0 0x1873f840 0xc7 0x1873d1e0 0x63 0x1890004 0xffffffffffffff9d 0x1873f840 0xc7 0x1873d1e0 0x3 0x18c0007 0x63 0x90 0xc7 0x19f0002 0xc7 0x1a20007 0xc5 0x60 0x2 0x1a90002 0x2 0x1ac0004 0x0 0x1873d1e0 0x2 0x0 0x0 0x1b30005 0x0 0x1873f840 0xc5 0x1873d1e0 0x65 0x1ba0007 0x11b 0x80 0xf 0x1c10005 0x0 0x1873f510 0xf 0x0 0x0 0x1c40004 0x0 0x18bee2e0 0xf 0x0 0x0 0x1d00005 0x0 0x1873f460 0x12a 0x0 0x0 0x1d80002 0x12a 0x1e70002 0x12a 0x1f50005 0x0 0x1873f510 0x12a 0x0 0x0 0x1fa0003 0x12a 0x1f0 0x20e0005 0x0 0x0 0x0 0x0 0x0 0x2170002 0x0 0x21d0005 0x0 0x0 0x0 0x0 0x0 0x2220005 0x0 0x0 0x0 0x0 0x0 0x2290007 0x0 0x50 0x0 0x2380005 0x0 0x0 0x0 0x0 0x0 0x23d0005 0x0 0x0 0x0 0x0 0x0 0x24b0005 0x0 0x0 0x0 0x0 0x0 0x2530002 0x0 0x2630007 0x0 0x48 0x0 0x27a0002 0x0 0x27f0003 0x0 0x18 0x28e0005 0x0 0x0 0x0 0x0 0x0 0x29e0007 0x0 0xfffffffffffffe28 0x12a 0x2ad0007 0x2d 0x38 0xfd 0x2b20003 0xfd 0x58 0x2bc0002 0x2d 0x2bf0005 0x0 0x1873f510 0x2d 0x0 0x0 oops 18 56 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper 77 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 87 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 135 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper 148 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 167 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 173 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 175 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 179 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 181 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 197 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 203 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 205 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 213 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 219 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/RawTypeBinding 225 org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 235 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 316 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper atEnd ()Z 1 295 orig 264 88 50 86 100 0 0 0 0 48 109 246 26 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42 0 0 0 233 7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 8 0x40007 0x0 0x40 0xfd 0x100007 0xf4 0x20 0x9 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding <init> (I[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 1 143 orig 264 88 50 86 100 0 0 0 0 160 165 87 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 49 0 0 0 241 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 12 0 0 0 0 0 data 2 0xc0002 0x5e oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding <init> (I[CLorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBinding;[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding;)V 2 1482 orig 264 88 50 86 100 0 0 0 0 72 164 87 21 0 0 0 0 72 3 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 89 1 0 0 137 35 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 33 0 2 0 0 0 208 1 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 58 0x10002 0x471 0x240007 0x31 0x40 0x440 0x2a0007 0x248 0x38 0x1f8 0x300003 0x229 0x18 0x3b0007 0x31 0x40 0x440 0x410007 0x6e 0x38 0x3d2 0x470003 0x403 0x18 0x590007 0x0 0x110 0x471 0x600005 0x9f 0x1873d1e0 0x3ab 0x192ea860 0x27 0x630007 0x471 0xc0 0x0 0x670005 0x0 0x0 0x0 0x0 0x0 0x6a0007 0x0 0x70 0x0 0x6e0005 0x0 0x0 0x0 0x0 0x0 0x710007 0x0 0x20 0x0 oops 2 30 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 32 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SourceTypeBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1 toReceiver ()Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker; 2 1279 orig 264 88 50 86 100 0 0 0 0 16 58 246 26 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 233 31 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isAnnotationType ()Z 2 1654 orig 264 88 50 86 100 0 0 0 0 72 127 57 21 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 1 0 0 209 41 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 4 0x80007 0x43d 0x20 0xfd oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding convertMemberValue (Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;[[[CZ)Ljava/lang/Object; 1 131 orig 264 88 50 86 100 0 0 0 0 0 215 196 26 0 0 0 0 200 6 0 0 224 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 209 3 0 0 25 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 104 5 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 173 0x10007 0x6f 0x20 0xb 0x70004 0xffffffffffffffd3 0x1909cf80 0x1c 0x18bec7d0 0x33 0xa0007 0x2d 0x20 0x42 0x100004 0xffffffffffffffdd 0x1909cf80 0x1c 0x19200860 0x7 0x130007 0x23 0xb0 0xa 0x180004 0x0 0x19200050 0xa 0x0 0x0 0x1b0005 0x0 0x19200050 0xa 0x0 0x0 0x260005 0x0 0x1873f510 0xa 0x0 0x0 0x2b0004 0xffffffffffffffdd 0x1909cf80 0x1c 0x19200860 0x7 0x2e0007 0x23 0x60 0x0 0x320004 0x0 0x0 0x0 0x0 0x0 0x370002 0x0 0x3c0004 0xffffffffffffffe4 0x1909cf80 0x1c 0x19200860 0x7 0x3f0007 0x1c 0x230 0x7 0x430004 0x0 0x19200860 0x7 0x0 0x0 0x4b0005 0x0 0x19200860 0x7 0x0 0x0 0x560005 0x0 0x1873f510 0x7 0x0 0x0 0x590004 0x0 0x1873f840 0x5 0x1873d1e0 0x2 0x600005 0x0 0x1873f840 0x5 0x1873d1e0 0x2 0x630007 0x2 0x80 0x5 0x670007 0x5 0x60 0x0 0x730005 0x0 0x0 0x0 0x0 0x0 0x760002 0x0 0x7e0002 0x7 0x810004 0x0 0x1873d1e0 0x7 0x0 0x0 0x8a0005 0x0 0x19200860 0x7 0x0 0x0 0x8e0005 0x0 0x1873d1e0 0x7 0x0 0x0 0x930004 0x0 0x1909cf80 0x1c 0x0 0x0 0x960007 0x0 0xe8 0x1c 0x9a0004 0x0 0x1909cf80 0x1c 0x0 0x0 0xa60007 0x3 0x20 0x19 0xb60003 0x3 0x58 0xc50002 0x3 0xc80004 0x0 0x18bec7d0 0x1 0x1873f840 0x2 0xd00007 0x3 0xffffffffffffffc0 0x3 0xda0002 0x0 oops 25 6 [Ljava/lang/Object; 8 org/aspectj/org/eclipse/jdt/internal/compiler/impl/StringConstant 16 [Ljava/lang/Object; 18 org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature 26 org/aspectj/org/eclipse/jdt/internal/compiler/env/ClassSignature 32 org/aspectj/org/eclipse/jdt/internal/compiler/env/ClassSignature 38 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 44 [Ljava/lang/Object; 46 org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature 62 [Ljava/lang/Object; 64 org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature 72 org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature 78 org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature 84 org/aspectj/ajdt/internal/compiler/lookup/AjLookupEnvironment 90 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 92 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 96 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding 98 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 120 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 126 org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature 132 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 138 [Ljava/lang/Object; 148 [Ljava/lang/Object; 163 org/aspectj/org/eclipse/jdt/internal/compiler/impl/StringConstant 165 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/UnresolvedReferenceBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding setAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V 2 1326 orig 264 88 50 86 100 0 0 0 0 200 238 87 21 0 0 0 0 248 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 97 33 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 144 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 18 0x60002 0x42c 0xc0002 0x42c 0xf0004 0x0 0x1873d1e0 0x55 0x0 0x0 0x180002 0x42c 0x1b0005 0x0 0x1873d1e0 0x42c 0x0 0x0 oops 2 6 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 14 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding
+ciMethodData org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings aspectOf ()Lorg/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings; 2 4654 orig 264 88 50 86 100 0 0 0 0 32 77 246 26 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 123 1 0 0 153 133 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 4 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 6 0x30007 0x10b3 0x30 0x0 0xf0002 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding declaringClass_aroundBody39$advice (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;Lorg/aspectj/runtime/internal/AroundClosure;)Ljava/lang/Object; 2 1354 orig 264 88 50 86 100 0 0 0 0 240 41 88 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 65 34 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x448 oops 0
+ciMethodData org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings ajc$interMethodDispatch1$org_aspectj_ajdt_internal_compiler_lookup_OwningClassSupportForMethodBindings$org_aspectj_org_eclipse_jdt_internal_compiler_lookup_MethodBinding$getOwningClass (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding; 2 5224 orig 264 88 50 86 100 0 0 0 0 152 72 246 26 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 65 151 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 6 0x10005 0x15 0x1873d6d0 0x1270 0x18a44db0 0x63 oops 2 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding 4 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ParameterizedMethodBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder storeAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder; 2 1848 orig 264 88 50 86 100 0 0 0 0 0 86 246 26 0 0 0 0 216 2 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 1 0 0 97 33 0 0 129 47 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 45 0 2 0 0 0 120 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 47 0x10007 0x1d9 0xd8 0x253 0xb0003 0x253 0x58 0x120007 0x0 0x40 0x403 0x1a0007 0x403 0x20 0x0 0x220007 0x0 0x40 0x656 0x2a0007 0x403 0xffffffffffffffa0 0x253 0x2f0007 0x0 0x20 0x253 0x350007 0x3cc 0x30 0x60 0x400002 0x60 0x450007 0x3cc 0x30 0x0 0x4e0002 0x0 0x560002 0x3cc 0x5a0005 0x0 0x19203f90 0x3cc 0x0 0x0 oops 1 43 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding storeAnnotationHolder (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder;)V 2 1447 orig 264 88 50 86 100 0 0 0 0 232 173 57 21 0 0 0 0 144 2 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 9 37 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 56 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 39 0x10007 0xc8 0xb8 0x3d9 0x60005 0x0 0x1873d1e0 0x3d1 0x192ea860 0x8 0xb0007 0x365 0xe8 0x74 0x100005 0x12 0x17833210 0x62 0x0 0x0 0x140003 0x74 0x98 0x190005 0x1 0x192ea860 0x4c 0x1873d1e0 0x7b 0x1e0007 0x0 0x50 0xc8 0x240005 0x58 0x17833210 0x70 0x0 0x0 oops 6 6 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 8 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SourceTypeBinding 16 org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable 25 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SourceTypeBinding 27 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 35 org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem fixTypeVariableDeclaringElement (Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding;)V 1 244 orig 264 88 50 86 100 0 0 0 0 120 128 195 26 0 0 0 0 104 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 217 1 0 0 97 7 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 1 0 0 255 255 255 255 7 0 10 0 0 0 0 0 data 34 0xa0007 0x0 0x110 0x3b 0x130007 0x0 0xf0 0x3b 0x250003 0x3b 0x98 0x310104 0xffffffffffffffdd 0x188accc0 0x3b 0x18bfa410 0x23 0x340007 0xb1 0x50 0x3b 0x390004 0x0 0x188accc0 0x3b 0x0 0x0 0x470007 0xec 0xffffffffffffff80 0x3b 0x4a0003 0x3b 0x18 oops 3 13 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding 15 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ArrayBinding 23 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding isStrictfp ()Z 2 1499 orig 264 88 50 86 100 0 0 0 0 208 148 57 21 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 1 0 0 201 33 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 32 0 0 0 255 255 255 255 7 0 8 0 0 0 0 0 data 4 0x80007 0x439 0x20 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder <init> ()V 2 1433 orig 264 88 50 86 100 0 0 0 0 184 84 246 26 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 1 0 0 105 31 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x3ed oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding storedAnnotations (Z)Lorg/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable; 1 1485 orig 264 88 50 86 100 0 0 0 0 112 61 197 26 0 0 0 0 64 2 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 105 30 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 15 0 2 0 0 0 240 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 30 0x10005 0x0 0x1873d1e0 0x3cd 0x0 0x0 0x40007 0x3cd 0x50 0x0 0xc0005 0x0 0x0 0x0 0x0 0x0 0x110007 0x376 0x70 0x57 0x180007 0x47 0x50 0x10 0x250007 0x10 0x20 0x0 0x300002 0x10 oops 1 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable <init> (I)V 1 96 orig 264 88 50 86 100 0 0 0 0 112 249 200 26 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41 0 0 0 185 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 6 0x10002 0x37 0x1a0007 0x37 0x20 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable removeKey (Ljava/lang/Object;)Ljava/lang/Object; 1 121 orig 264 88 50 86 100 0 0 0 0 176 2 201 26 0 0 0 0 240 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 49 3 0 0 177 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 160 1 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 52 0x70005 0x0 0x1873d6d0 0x62 0x18beffd0 0x4 0x100003 0x66 0x150 0x160005 0x0 0x1873d6d0 0x56 0x0 0x0 0x190007 0x56 0xe8 0x0 0x340004 0x0 0x0 0x0 0x0 0x0 0x3b0004 0x0 0x0 0x0 0x0 0x0 0x440007 0x0 0x38 0x0 0x480003 0x0 0x18 0x4f0007 0x0 0x30 0x0 0x530002 0x0 0x5e0007 0x56 0x20 0x0 0x6c0007 0x56 0xfffffffffffffec8 0x66 oops 3 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding 4 org/aspectj/ajdt/internal/compiler/lookup/SimpleSyntheticAccessMethodBinding 11 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 1 394 orig 264 88 50 86 100 0 0 0 0 40 1 201 26 0 0 0 0 240 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 0 0 0 49 7 0 0 25 6 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 152 1 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 51 0x70005 0xcd 0x192ea860 0x15 0x18bfa410 0x4 0x110003 0xe6 0xb8 0x170005 0xe 0x1873d6d0 0x54 0x1873d1e0 0x5 0x1a0007 0x5e 0x50 0x9 0x250004 0x0 0x1768f7c0 0x5 0x19203f90 0x4 0x2d0007 0x52 0x20 0xc 0x3d0007 0x67 0xffffffffffffff60 0xdd 0x470004 0x0 0x192ea860 0x13 0x18bfa410 0x4 0x4f0004 0x0 0x19203f90 0x8d 0x1768f7c0 0xa 0x5f0007 0xcd 0x30 0x10 0x630002 0x10 oops 10 2 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SourceTypeBinding 4 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ArrayBinding 11 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/MethodBinding 13 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding 21 java/lang/Boolean 23 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder 35 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SourceTypeBinding 37 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ArrayBinding 41 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder 43 java/lang/Boolean
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$AnnotationMethodHolder <init> ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;Ljava/lang/Object;Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment;)V 1 96 orig 264 88 50 86 100 0 0 0 0 216 92 246 26 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 17 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0x22 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$MethodHolder <init> ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;[[Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)V 1 96 orig 264 88 50 86 100 0 0 0 0 216 96 246 26 0 0 0 0 152 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 17 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x22 0x60005 0x0 0x18ca0d20 0x22 0x0 0x0 oops 1 4 org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$AnnotationMethodHolder
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$MethodHolder setAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder; 1 96 orig 264 88 50 86 100 0 0 0 0 40 99 246 26 0 0 0 0 128 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 17 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 88 0 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 11 0x20007 0x0 0x40 0x22 0x70007 0x6 0x38 0x1c 0xd0003 0x1c 0x18 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder setAnnotations ([Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding;)Lorg/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder; 1 1343 orig 264 88 50 86 100 0 0 0 0 104 89 246 26 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 249 1 0 0 49 26 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 8 0x60007 0x0 0x40 0x346 0xb0007 0x4c 0x20 0x2fa oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment getNonNullByDefaultAnnotationName ()[[C 1 64 orig 264 88 50 86 100 0 0 0 0 136 63 36 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 0 0 0 225 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding signature2qualifiedTypeName ([C)[[C 1 66 orig 264 88 50 86 100 0 0 0 0 136 76 197 26 0 0 0 0 96 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 0 0 0 225 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 2 0x80002 0x1c oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding getNonNullByDefaultValue (Lorg/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation;)I 1 0 orig 264 88 50 86 100 0 0 0 0 160 75 197 26 0 0 0 0 72 4 0 0 128 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 248 2 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 95 0x10005 0x0 0x0 0x0 0x0 0x0 0x90002 0x0 0xe0005 0x0 0x0 0x0 0x0 0x0 0x170007 0x0 0x40 0x0 0x1d0007 0x0 0x1d0 0x0 0x250005 0x0 0x0 0x0 0x0 0x0 0x2c0007 0x0 0x20 0x0 0x330005 0x0 0x0 0x0 0x0 0x0 0x360007 0x0 0x80 0x0 0x3b0004 0x0 0x0 0x0 0x0 0x0 0x430005 0x0 0x0 0x0 0x0 0x0 0x4a0005 0x0 0x0 0x0 0x0 0x0 0x510007 0x0 0x80 0x0 0x580007 0x0 0x60 0x0 0x5f0005 0x0 0x0 0x0 0x0 0x0 0x660002 0x0 0x6f0007 0x0 0x98 0x0 0x780003 0x0 0x58 0x820005 0x0 0x0 0x0 0x0 0x0 0x870002 0x0 0x950007 0x0 0xffffffffffffffc0 0x0 oops 0
+ciMethodData org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable rehash ()V 1 187 orig 264 88 50 86 100 0 0 0 0 192 5 201 26 0 0 0 0 224 1 0 0 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 139 0 0 0 65 0 0 0 129 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 152 0 0 0 255 255 255 255 2 0 10 0 0 0 0 0 data 19 0xa0002 0x8 0x140003 0x8 0x68 0x1f0007 0x6 0x50 0x2a 0x2a0005 0x2a 0x0 0x0 0x0 0x0 0x320007 0x30 0xffffffffffffffb0 0x8 oops 0
+instanceKlass org/aspectj/apache/bcel/generic/CodeExceptionGen
+instanceKlass org/aspectj/apache/bcel/generic/InstructionConstants$Clinit
+instanceKlass org/aspectj/util/PartialOrder
+instanceKlass org/aspectj/apache/bcel/generic/Tag
+instanceKlass org/aspectj/apache/bcel/generic/InstructionHandle
+instanceKlass org/aspectj/apache/bcel/generic/InstructionList
+instanceKlass org/aspectj/weaver/bcel/BcelClassWeaver
+instanceKlass org/aspectj/weaver/IClassWeaver
+instanceKlass org/aspectj/weaver/bcel/Range
+instanceKlass org/aspectj/apache/bcel/generic/InstructionFactory
+instanceKlass org/aspectj/apache/bcel/generic/InstructionConstants
+instanceKlass org/aspectj/weaver/bcel/LazyClassGen
+instanceKlass org/aspectj/weaver/patterns/FastMatchInfo
+instanceKlass org/aspectj/ajdt/internal/compiler/WeaverAdapter
+instanceKlass org/aspectj/weaver/IWeaveRequestor
+instanceKlass org/aspectj/weaver/bcel/BcelWeaver$3
+instanceKlass org/aspectj/apache/bcel/classfile/Utility$ResultHolder
+instanceKlass java/util/TreeMap$PrivateEntryIterator
+instanceKlass org/aspectj/weaver/patterns/PointcutEvaluationExpenseComparator
+instanceKlass java/util/NavigableSet
+instanceKlass java/util/SortedSet
+instanceKlass org/aspectj/weaver/patterns/PointcutRewriter
+instanceKlass org/aspectj/weaver/ResolvedType$5
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ParameterizedGenericMethodBinding$LingeringTypeVariableEliminator
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/InferenceContext
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$5
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$4
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$3
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$2
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$19
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$18
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/StackMapFrameCodeStream$StackDepthMarker
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/PrivilegedHandler
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ParameterizedMethodBinding$1
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/WarnOnSwallowedException
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/TheOriginalJDTScannerClass$Goal
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$16
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$15
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$14
+instanceKlass java/util/ComparableTimSort
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/StackMapFrameCodeStream$ExceptionMarker
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/IntegerCache
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ClassFile$1
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleSet
+instanceKlass org/aspectj/weaver/bcel/UnwovenClassFile
+instanceKlass org/aspectj/ajdt/internal/compiler/ClassFileBasedByteCodeProvider
+instanceKlass org/aspectj/weaver/bcel/UnwovenClassFileWithThirdPartyManagedBytecode$IByteCodeProvider
+instanceKlass org/aspectj/ajdt/internal/compiler/InterimCompilationResult
+instanceKlass java/text/CalendarBuilder
+instanceKlass java/text/ParsePosition
+instanceKlass java/text/DigitList
+instanceKlass java/util/Currency$CurrencyNameGetter
+instanceKlass java/util/Currency$1
+instanceKlass java/util/Currency
+instanceKlass java/text/DecimalFormatSymbols
+instanceKlass java/util/concurrent/atomic/AtomicMarkableReference$Pair
+instanceKlass java/util/concurrent/atomic/AtomicMarkableReference
+instanceKlass java/text/DateFormatSymbols
+instanceKlass sun/util/calendar/CalendarUtils
+instanceKlass sun/util/calendar/CalendarDate
+instanceKlass sun/util/locale/LanguageTag
+instanceKlass java/util/ResourceBundle$RBClassLoader$1
+instanceKlass sun/util/resources/LocaleData$1
+instanceKlass sun/util/resources/LocaleData
+instanceKlass sun/util/locale/provider/LocaleResources
+instanceKlass sun/util/locale/provider/CalendarDataUtility$CalendarWeekParameterGetter
+instanceKlass sun/util/locale/provider/LocaleServiceProviderPool$LocalizedObjectGetter
+instanceKlass sun/util/locale/provider/SPILocaleProviderAdapter$1
+instanceKlass sun/util/locale/provider/LocaleServiceProviderPool
+instanceKlass sun/util/locale/provider/CalendarDataUtility
+instanceKlass java/util/Calendar$Builder
+instanceKlass sun/util/locale/provider/JRELocaleProviderAdapter$1
+instanceKlass sun/util/locale/provider/LocaleDataMetaInfo
+instanceKlass sun/util/locale/provider/AvailableLanguageTags
+instanceKlass sun/util/locale/provider/LocaleProviderAdapter$1
+instanceKlass sun/util/locale/provider/ResourceBundleBasedAdapter
+instanceKlass sun/util/locale/provider/LocaleProviderAdapter
+instanceKlass java/util/spi/LocaleServiceProvider
+instanceKlass java/util/Calendar
+instanceKlass java/util/TimeZone$1
+instanceKlass sun/util/calendar/ZoneInfoFile$ZoneOffsetTransitionRule
+instanceKlass sun/util/calendar/ZoneInfoFile$1
+instanceKlass sun/util/calendar/ZoneInfoFile
+instanceKlass sun/util/calendar/CalendarSystem
+instanceKlass java/util/TimeZone
+instanceKlass org/aspectj/bridge/Version
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ClassFile$3
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/VerificationTypeInfo
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/StackMapFrame
+instanceKlass java/util/DualPivotQuicksort
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/EclipseConstantPoolWriter
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/EclipseAttributeAdapter
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/IAttribute
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/StackMapFrameCodeStream$FramePosition
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/CachedIndexEntry
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/Label
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/CharArrayCache
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/CodeStream
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/ObjectCache
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/ValidateAtAspectJAnnotationsVisitor$AspectJAnnotations
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/InferenceContext18
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/Sorting
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AtAspectJAnnotationFactory
+instanceKlass javax/annotation/processing/Processor
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/dispatch/RoundDispatcher
+instanceKlass javax/lang/model/element/AnnotationValue
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/model/ElementImpl
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/model/IElementInfo
+instanceKlass javax/lang/model/element/ExecutableElement
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/util/ManyToMany
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/dispatch/RoundEnvImpl
+instanceKlass org/aspectj/asm/internal/CharOperation
+instanceKlass org/aspectj/weaver/IntMap
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/InterTypeMemberFinder
+instanceKlass org/aspectj/weaver/Iterators$ResolvedTypeArrayIterator
+instanceKlass org/aspectj/weaver/ResolvedType$SuperInterfaceWalker
+instanceKlass org/aspectj/weaver/ResolvedType$2
+instanceKlass java/util/ArrayList$1
+instanceKlass org/aspectj/weaver/bcel/BcelGenericSignatureToTypeXConverter
+instanceKlass org/aspectj/apache/bcel/classfile/annotation/NameValuePair
+instanceKlass org/aspectj/weaver/Iterators$4$1
+instanceKlass org/aspectj/weaver/Iterators$4
+instanceKlass org/aspectj/weaver/ResolvedType$3
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/EclipseAnnotationConvertor
+instanceKlass org/aspectj/weaver/AbstractAnnotationAJ
+instanceKlass org/aspectj/weaver/bcel/LazyMethodGen
+instanceKlass org/aspectj/weaver/Iterators$6
+instanceKlass org/aspectj/weaver/Iterators$1$1
+instanceKlass org/aspectj/weaver/Iterators$7
+instanceKlass org/aspectj/weaver/Iterators$2
+instanceKlass org/aspectj/weaver/Iterators$8
+instanceKlass org/aspectj/weaver/Iterators$5
+instanceKlass org/aspectj/weaver/ResolvedType$4
+instanceKlass org/aspectj/weaver/Iterators$1
+instanceKlass org/aspectj/weaver/Iterators$Filter
+instanceKlass org/aspectj/weaver/Iterators
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/EclipseSourceLocation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/IMemberFinder
+instanceKlass org/aspectj/weaver/AjcMemberMaker
+instanceKlass org/aspectj/weaver/CrosscuttingMembers
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/MemberValuePair$2
+instanceKlass org/aspectj/weaver/patterns/Bindings
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/EclipseScope
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/AnonymousClassPublisher
+instanceKlass org/aspectj/weaver/AnnotationNameValuePair
+instanceKlass org/aspectj/weaver/AnnotationValue
+instanceKlass java/util/TimSort
+instanceKlass sun/security/action/GetBooleanAction
+instanceKlass java/util/Arrays$LegacyMergeSort
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForFieldBindings
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfObject
+instanceKlass org/aspectj/weaver/NameMangler
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/AjTypeConstants
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AstUtil
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeBindingVisitor
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/NullAnnotationMatching
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/EnumConstantSignature
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/ClassSignature
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ElementValuePairInfo
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryNestedType
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/ConstantPool
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ClassFileConstants
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryElementValuePair
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/impl/Constant
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/SignatureWrapper
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker$1
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/NameEnvironmentAnswer
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/codegen/AttributeNamesConstants
+instanceKlass org/aspectj/asm/IElementHandleProvider
+instanceKlass org/aspectj/asm/IRelationshipMap
+instanceKlass org/aspectj/asm/IHierarchy
+instanceKlass org/aspectj/weaver/patterns/AbstractPatternNodeVisitor
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfType
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryTypeAnnotation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryMethod
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IGenericMethod
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryField
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IGenericField
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation
+instanceKlass java/util/zip/ZipFile$ZipEntryIterator
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/ObjectVector
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleNameVector
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/CompoundNameVector
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/Scope$Substitutor
+instanceKlass org/aspectj/weaver/patterns/BasicToken
+instanceKlass org/aspectj/weaver/patterns/TypePattern$MatchKind
+instanceKlass org/aspectj/weaver/patterns/BindingPattern
+instanceKlass org/aspectj/weaver/patterns/IVerificationRequired
+instanceKlass org/aspectj/weaver/patterns/ISignaturePattern
+instanceKlass org/aspectj/weaver/patterns/PatternParser
+instanceKlass org/aspectj/weaver/patterns/BasicTokenSource
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/CompilationResult$ProblemsForRemovalFilter
+instanceKlass org/aspectj/ajdt/internal/core/builder/EclipseSourceContext
+instanceKlass org/aspectj/weaver/IEclipseSourceContext
+instanceKlass org/aspectj/weaver/patterns/ITokenSource
+instanceKlass org/aspectj/ajdt/internal/compiler/parser/AllowAssertAndEnumAsIdentifierTokensInPointcutExpressions
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/IPrivilegedHandler
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ITypeFinder
+instanceKlass org/aspectj/ajdt/internal/compiler/ast/AspectDeclaration$BodyGenerator
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/flow/FlowContext
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/flow/FlowInfo
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/ScannerHelper
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/CompilationUnitDeclaration$1
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/CompilationResult$1
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/CompilationResult
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/Messages
+instanceKlass org/aspectj/ajdt/internal/compiler/WeaverMessageHandler
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjBuildManager$3
+instanceKlass org/aspectj/ajdt/internal/compiler/CommonPrinter
+instanceKlass org/aspectj/ajdt/internal/compiler/AbstractCompilerAdapter
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/PushinCollector
+instanceKlass org/aspectj/weaver/Shadow
+instanceKlass org/aspectj/ajdt/internal/compiler/problem/AjProblemReporter$PinpointedProblem
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/CompilationUnit
+instanceKlass java/net/URI$Parser
+instanceKlass java/net/URI
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/dispatch/BaseMessagerImpl
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/dispatch/BatchFilerImpl
+instanceKlass javax/tools/StandardLocation$2
+instanceKlass javax/tools/JavaFileObject
+instanceKlass javax/tools/FileObject
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/util/EclipseFileManager
+instanceKlass javax/tools/StandardJavaFileManager
+instanceKlass java/lang/Short$ShortCache
+instanceKlass java/lang/Long$LongCache
+instanceKlass java/lang/Character$CharacterCache
+instanceKlass java/lang/Byte$ByteCache
+instanceKlass javax/lang/model/type/ErrorType
+instanceKlass javax/lang/model/type/DeclaredType
+instanceKlass javax/lang/model/type/ReferenceType
+instanceKlass javax/lang/model/element/AnnotationMirror
+instanceKlass javax/lang/model/element/TypeParameterElement
+instanceKlass java/lang/reflect/InvocationHandler
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/model/Factory
+instanceKlass javax/lang/model/type/WildcardType
+instanceKlass javax/lang/model/type/PrimitiveType
+instanceKlass javax/lang/model/type/TypeMirror
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/model/TypesImpl
+instanceKlass javax/lang/model/element/TypeElement
+instanceKlass javax/lang/model/element/Parameterizable
+instanceKlass javax/lang/model/element/PackageElement
+instanceKlass javax/lang/model/element/QualifiedNameable
+instanceKlass javax/lang/model/element/Element
+instanceKlass javax/lang/model/AnnotatedConstruct
+instanceKlass javax/lang/model/element/Name
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/model/ElementsImpl
+instanceKlass javax/annotation/processing/Messager
+instanceKlass javax/annotation/processing/Filer
+instanceKlass javax/tools/JavaFileManager
+instanceKlass javax/tools/OptionChecker
+instanceKlass javax/lang/model/util/Types
+instanceKlass javax/lang/model/util/Elements
+instanceKlass javax/tools/JavaFileManager$Location
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/dispatch/BaseProcessingEnvImpl
+instanceKlass javax/annotation/processing/ProcessingEnvironment
+instanceKlass javax/annotation/processing/RoundEnvironment
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/AbstractAnnotationProcessorManager
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/apt/dispatch/IProcessorProvider
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/AbstractCommentParser
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/JavadocTagConstants
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/TheOriginalJDTScannerClass
+instanceKlass org/aspectj/weaver/patterns/IToken
+instanceKlass org/aspectj/ajdt/internal/compiler/parser/DeclarationFactory
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/Parser$IDeclarationFactory
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/RecoveredElement
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/TheOriginalJDTParserClass
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/ConflictedParser
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/ParserBasicInformation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/parser/TerminalTokens
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/impl/CompilerStats
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem$HashedParameterizedTypes
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ClassFile
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ClassFilePool
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/SimpleLookupTable
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfPackage
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/IQualifiedTypeResolutionListener
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding$3
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding$2
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeConstants$CloseMethodRecord
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ReductionResult
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ElementValuePair
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/AnnotationBinding
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ImplicitNullAnnotationVerifier
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/Substitution
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeSystem
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/Invocation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/IPolyExpression
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/OperatorIds
+instanceKlass sun/util/ResourceBundleEnumeration
+instanceKlass org/aspectj/org/eclipse/jdt/core/compiler/CategorizedProblem
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/problem/DefaultProblemFactory
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjBuildManager$4
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/DefaultErrorHandlingPolicies$4
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/DefaultErrorHandlingPolicies
+instanceKlass org/aspectj/ajdt/internal/compiler/CompilerAdapter$CompilerAdapter$1
+instanceKlass org/aspectj/ajdt/internal/compiler/CompilerAdapter
+instanceKlass org/aspectj/ajdt/internal/core/builder/StatefulNameEnvironment
+instanceKlass org/aspectj/weaver/WeaverStateInfo
+instanceKlass org/aspectj/apache/bcel/classfile/LineNumber
+instanceKlass org/aspectj/asm/AsmManager
+instanceKlass org/aspectj/weaver/TypeVariable
+instanceKlass org/aspectj/util/GenericSignature$TypeArgument
+instanceKlass org/aspectj/util/GenericSignature$SimpleClassTypeSignature
+instanceKlass org/aspectj/util/GenericSignature$FormalTypeParameter
+instanceKlass org/aspectj/util/GenericSignature$ClassSignature
+instanceKlass org/aspectj/util/GenericSignatureParser
+instanceKlass org/aspectj/apache/bcel/classfile/InnerClass
+instanceKlass org/aspectj/apache/bcel/classfile/LocalVariable
+instanceKlass org/aspectj/weaver/patterns/SimpleScope
+instanceKlass org/aspectj/weaver/patterns/FormalBinding
+instanceKlass org/aspectj/weaver/AnnotationAJ
+instanceKlass org/aspectj/util/TypeSafeEnum
+instanceKlass java/io/DataOutput
+instanceKlass java/util/Collections$EmptyIterator
+instanceKlass org/aspectj/weaver/patterns/PatternNodeVisitor
+instanceKlass org/aspectj/apache/bcel/classfile/annotation/ElementValue
+instanceKlass org/aspectj/weaver/MemberImpl
+instanceKlass org/aspectj/weaver/bcel/AtAjAttributes$AjAttributeStruct
+instanceKlass org/aspectj/weaver/bcel/AtAjAttributes
+instanceKlass org/aspectj/weaver/ConstantPoolWriter
+instanceKlass org/aspectj/apache/bcel/generic/InstructionTargeter
+instanceKlass org/aspectj/weaver/bcel/Utility
+instanceKlass org/aspectj/weaver/bcel/BcelConstantPoolReader
+instanceKlass org/aspectj/weaver/AjAttribute
+instanceKlass org/aspectj/weaver/SourceContextImpl$1
+instanceKlass org/aspectj/weaver/SourceContextImpl
+instanceKlass org/aspectj/weaver/ISourceContext
+instanceKlass org/aspectj/weaver/patterns/IScope
+instanceKlass org/aspectj/weaver/ConstantPoolReader
+instanceKlass org/aspectj/weaver/AbstractReferenceTypeDelegate
+instanceKlass org/aspectj/apache/bcel/classfile/Utility
+instanceKlass org/aspectj/apache/bcel/classfile/CodeException
+instanceKlass org/aspectj/apache/bcel/ExceptionConstants
+instanceKlass org/aspectj/apache/bcel/ConstantsInitializer
+instanceKlass org/aspectj/apache/bcel/classfile/annotation/AnnotationGen
+instanceKlass org/aspectj/apache/bcel/classfile/Attribute
+instanceKlass org/aspectj/apache/bcel/classfile/AttributeUtils
+instanceKlass org/aspectj/apache/bcel/classfile/SimpleConstant
+instanceKlass org/aspectj/apache/bcel/classfile/Constant
+instanceKlass org/aspectj/apache/bcel/classfile/ConstantPool
+instanceKlass java/io/DataInput
+instanceKlass org/aspectj/apache/bcel/classfile/ClassParser
+instanceKlass java/util/zip/CRC32
+instanceKlass java/util/zip/Checksum
+instanceKlass org/aspectj/weaver/IClassFileProvider
+instanceKlass org/aspectj/weaver/IUnwovenClassFile
+instanceKlass org/aspectj/weaver/bcel/BcelWeaver
+instanceKlass org/aspectj/bridge/MessageUtil$11
+instanceKlass org/aspectj/bridge/MessageUtil$10
+instanceKlass org/aspectj/bridge/MessageUtil$9
+instanceKlass org/aspectj/bridge/MessageUtil$8
+instanceKlass org/aspectj/bridge/MessageUtil$7
+instanceKlass org/aspectj/bridge/MessageUtil$6
+instanceKlass org/aspectj/bridge/MessageUtil$5
+instanceKlass org/aspectj/bridge/MessageUtil$4
+instanceKlass org/aspectj/bridge/MessageUtil$3
+instanceKlass org/aspectj/bridge/MessageUtil$2
+instanceKlass org/aspectj/bridge/MessageUtil$KindSelector
+instanceKlass org/aspectj/bridge/Message
+instanceKlass org/aspectj/bridge/MessageUtil$IMessageRenderer
+instanceKlass org/aspectj/bridge/MessageUtil
+instanceKlass java/text/AttributedCharacterIterator$Attribute
+instanceKlass java/util/Date
+instanceKlass java/text/FieldPosition
+instanceKlass java/util/Locale$1
+instanceKlass java/text/Format
+instanceKlass org/aspectj/weaver/WeaverMessages
+instanceKlass org/aspectj/weaver/bcel/ClassPathManager$Entry
+instanceKlass org/aspectj/weaver/bcel/ClassPathManager$ClassFile
+instanceKlass org/aspectj/weaver/bcel/ClassPathManager
+instanceKlass org/aspectj/weaver/ShadowMunger
+instanceKlass org/aspectj/weaver/ast/ASTNode
+instanceKlass org/aspectj/weaver/bcel/BcelWeavingSupport
+instanceKlass org/aspectj/weaver/World$AspectPrecedenceCalculator
+instanceKlass org/aspectj/util/FuzzyBoolean
+instanceKlass org/aspectj/weaver/ResolvedType$FieldGetter
+instanceKlass org/aspectj/weaver/ResolvedType$PointcutGetter
+instanceKlass org/aspectj/weaver/ResolvedType$MethodGetterIncludingItds
+instanceKlass org/aspectj/weaver/ResolvedType$MethodGetter
+instanceKlass org/aspectj/weaver/UnresolvedType$TypeKind
+instanceKlass org/aspectj/weaver/TypeFactory
+instanceKlass org/aspectj/weaver/ResolvedMember
+instanceKlass org/aspectj/weaver/Iterators$Getter
+instanceKlass org/aspectj/util/GenericSignature$TypeSignature
+instanceKlass org/aspectj/weaver/TypeVariableReference
+instanceKlass org/aspectj/weaver/Lint$Kind
+instanceKlass org/aspectj/weaver/Lint
+instanceKlass org/aspectj/weaver/CrosscuttingMembersSet
+instanceKlass java/util/Collections$SynchronizedMap
+instanceKlass org/aspectj/weaver/World$TypeMap
+instanceKlass org/aspectj/bridge/IMessageHandler$1
+instanceKlass org/aspectj/bridge/MessageWriter
+instanceKlass org/aspectj/weaver/loadtime/definition/Definition
+instanceKlass org/aspectj/apache/bcel/generic/Instruction
+instanceKlass org/aspectj/apache/bcel/Constants
+instanceKlass org/aspectj/apache/bcel/generic/Type
+instanceKlass org/aspectj/apache/bcel/util/ClassLoaderReference
+instanceKlass org/aspectj/apache/bcel/classfile/Modifiers
+instanceKlass org/aspectj/apache/bcel/classfile/Node
+instanceKlass org/aspectj/weaver/ConcreteTypeMunger
+instanceKlass org/aspectj/util/PartialOrder$PartialComparable
+instanceKlass org/aspectj/weaver/ResolvedTypeMunger
+instanceKlass org/aspectj/weaver/IWeavingSupport
+instanceKlass org/aspectj/weaver/UnresolvedType
+instanceKlass org/aspectj/weaver/TypeVariableDeclaringElement
+instanceKlass org/aspectj/weaver/tools/Traceable
+instanceKlass org/aspectj/weaver/AnnotatedElement
+instanceKlass org/aspectj/bridge/context/CompilationAndWeavingContext$ContextStackEntry
+instanceKlass org/aspectj/bridge/context/CompilationAndWeavingContext$ContextTokenImpl
+instanceKlass org/aspectj/bridge/ILifecycleAware
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/FileSystem$ClasspathNormalizer
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/Main$1
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/ManifestAnalyzer
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/Main$3
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/ClasspathLocation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/FileSystem$Classpath
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/FileSystem
+instanceKlass org/aspectj/util/FileUtil$5
+instanceKlass org/aspectj/util/FileUtil$3
+instanceKlass org/aspectj/util/FileUtil$2
+instanceKlass org/aspectj/util/FileUtil$1
+instanceKlass org/aspectj/util/FileUtil
+instanceKlass org/aspectj/ajdt/ajc/ConfigParser$Arg
+instanceKlass org/aspectj/ajdt/ajc/ConfigParser$Location
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjBuildConfig
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/Binding
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/Util$Displayable
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/Util
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/Compiler
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/impl/IrritantSet
+instanceKlass org/aspectj/org/eclipse/jdt/core/compiler/CharOperation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/impl/CompilerOptions
+instanceKlass org/aspectj/org/eclipse/jdt/core/compiler/IProblem
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/HashtableOfInt
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/Main$Logger
+instanceKlass sun/net/www/protocol/jar/JarFileFactory
+instanceKlass sun/net/www/protocol/jar/URLJarFile$URLJarFileCloseController
+instanceKlass java/net/URLClassLoader$2
+instanceKlass java/util/ResourceBundle$Control$1
+instanceKlass java/util/LinkedList$Node
+instanceKlass java/util/ResourceBundle$CacheKeyReference
+instanceKlass java/util/ResourceBundle$CacheKey
+instanceKlass java/util/ResourceBundle$Control
+instanceKlass java/net/URLClassLoader$3$1
+instanceKlass sun/misc/CompoundEnumeration
+instanceKlass java/net/URLClassLoader$3
+instanceKlass sun/misc/URLClassPath$1
+instanceKlass java/lang/ClassLoader$2
+instanceKlass sun/misc/URLClassPath$2
+instanceKlass sun/misc/Launcher$BootClassPathHolder$1
+instanceKlass sun/misc/Launcher$BootClassPathHolder
+instanceKlass java/util/LinkedHashMap$LinkedHashIterator
+instanceKlass java/util/ServiceLoader$1
+instanceKlass java/util/ServiceLoader$LazyIterator
+instanceKlass java/util/ServiceLoader
+instanceKlass java/util/spi/ResourceBundleControlProvider
+instanceKlass java/util/ResourceBundle
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/Main$ResourceBundleFactory
+instanceKlass org/aspectj/ajdt/ajc/ConfigParser
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/FileSystem$ClasspathSectionProblemReporter
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/IErrorHandlingPolicy
+instanceKlass java/io/FilenameFilter
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/batch/Main
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/util/SuffixConstants
+instanceKlass java/util/AbstractList$Itr
+instanceKlass java/util/Collections$UnmodifiableCollection$1
+instanceKlass java/util/logging/LogManager$5
+instanceKlass sun/reflect/UnsafeFieldAccessorFactory
+instanceKlass java/util/logging/LoggingProxyImpl
+instanceKlass sun/util/logging/LoggingProxy
+instanceKlass sun/util/logging/LoggingSupport$1
+instanceKlass sun/util/logging/LoggingSupport
+instanceKlass sun/util/logging/PlatformLogger$LoggerProxy
+instanceKlass sun/util/logging/PlatformLogger$1
+instanceKlass sun/util/logging/PlatformLogger
+instanceKlass java/util/logging/LogManager$LoggerContext$1
+instanceKlass java/util/logging/LogManager$3
+instanceKlass java/util/logging/LogManager$2
+instanceKlass java/lang/Shutdown$Lock
+instanceKlass java/lang/Shutdown
+instanceKlass java/lang/ApplicationShutdownHooks$1
+instanceKlass java/lang/ApplicationShutdownHooks
+instanceKlass java/util/logging/LogManager$LogNode
+instanceKlass java/util/logging/LogManager$LoggerContext
+instanceKlass java/util/logging/LogManager$1
+instanceKlass java/util/logging/LogManager
+instanceKlass java/util/concurrent/locks/AbstractQueuedSynchronizer$Node
+instanceKlass java/util/concurrent/locks/AbstractOwnableSynchronizer
+instanceKlass java/util/concurrent/CopyOnWriteArrayList
+instanceKlass java/util/logging/Logger$LoggerBundle
+instanceKlass java/util/logging/Level$KnownLevel
+instanceKlass java/util/logging/Level
+instanceKlass java/util/logging/Handler
+instanceKlass java/util/logging/Logger
+instanceKlass org/aspectj/weaver/tools/AbstractTrace
+instanceKlass org/aspectj/weaver/tools/Trace
+instanceKlass org/aspectj/weaver/tools/TraceFactory
+instanceKlass org/aspectj/weaver/Dump
+instanceKlass org/aspectj/bridge/CountingMessageHandler
+instanceKlass org/aspectj/org/eclipse/jdt/internal/core/builder/StringSet
+instanceKlass org/aspectj/weaver/ReferenceTypeDelegate
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IBinaryType
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IGenericType
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjState
+instanceKlass org/aspectj/weaver/bcel/TypeDelegateResolver
+instanceKlass org/aspectj/ajdt/internal/core/builder/CompilerConfigurationChangeFlags
+instanceKlass org/aspectj/ajdt/ajc/AjdtCommand
+instanceKlass org/aspectj/bridge/ReflectionFactory
+instanceKlass java/util/ArrayList$Itr
+instanceKlass org/aspectj/tools/ajc/Main$MessagePrinter
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjBuildManager$AjBuildContexFormatter
+instanceKlass org/aspectj/ajdt/internal/core/builder/AsmElementFormatter
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/EclipseFactory
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/Scope
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/InvocationSite
+instanceKlass org/aspectj/weaver/patterns/PatternNode
+instanceKlass org/aspectj/weaver/IHasSourceLocation
+instanceKlass org/aspectj/weaver/IHasPosition
+instanceKlass org/aspectj/bridge/SourceLocation
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/impl/ReferenceContext
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/problem/ProblemSeverities
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ast/ASTNode
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeIds
+instanceKlass org/aspectj/weaver/Member
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ASTVisitor
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjBuildManager$1
+instanceKlass org/aspectj/asm/IProgramElement
+instanceKlass org/aspectj/ajdt/internal/compiler/ICompilerAdapter
+instanceKlass org/aspectj/ajdt/internal/compiler/lookup/AnonymousClassCreationListener
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/LookupEnvironment
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/TypeConstants
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/lookup/ProblemReasons
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/impl/ITypeRequestor
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/problem/ProblemHandler
+instanceKlass org/aspectj/apache/bcel/util/Repository
+instanceKlass java/util/zip/ZipUtils
+instanceKlass org/aspectj/weaver/World
+instanceKlass org/aspectj/weaver/Dump$INode
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/ICompilationUnit
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/IDependent
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/env/INameEnvironment
+instanceKlass java/io/FileFilter
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/IProblemFactory
+instanceKlass org/aspectj/ajdt/internal/compiler/IIntermediateResultsRequestor
+instanceKlass org/aspectj/org/eclipse/jdt/internal/compiler/ICompilerRequestor
+instanceKlass org/aspectj/bridge/ISourceLocation
+instanceKlass org/aspectj/util/IStructureModel
+instanceKlass org/aspectj/ajdt/internal/core/builder/AjBuildManager
+instanceKlass org/aspectj/ajdt/internal/compiler/ICompilerAdapterFactory
+instanceKlass org/aspectj/ajdt/internal/compiler/IBinarySourceProvider
+instanceKlass org/aspectj/ajdt/internal/compiler/IOutputClassFileNameProvider
+instanceKlass org/aspectj/bridge/IMessage$Kind$1
+instanceKlass org/aspectj/bridge/IMessage$Kind
+instanceKlass org/aspectj/bridge/context/CompilationAndWeavingContext$DefaultFormatter
+instanceKlass org/aspectj/bridge/context/ContextFormatter
+instanceKlass org/aspectj/bridge/context/ContextToken
+instanceKlass org/aspectj/bridge/context/CompilationAndWeavingContext
+instanceKlass org/aspectj/tools/ajc/Main$CommandController
+instanceKlass sun/misc/FloatingDecimal$ASCIIToBinaryBuffer
+instanceKlass sun/misc/FloatingDecimal$PreparedASCIIToBinaryBuffer
+instanceKlass sun/misc/FloatingDecimal$ASCIIToBinaryConverter
+instanceKlass sun/misc/FloatingDecimal$BinaryToASCIIBuffer
+instanceKlass sun/misc/FloatingDecimal$ExceptionalBinaryToASCIIBuffer
+instanceKlass sun/misc/FloatingDecimal$BinaryToASCIIConverter
+instanceKlass sun/misc/FloatingDecimal
+instanceKlass org/aspectj/util/LangUtil
+instanceKlass java/lang/Void
+instanceKlass org/aspectj/bridge/ICommand
+instanceKlass org/aspectj/bridge/MessageHandler
+instanceKlass org/aspectj/bridge/IMessage
+instanceKlass org/aspectj/bridge/IMessageHolder
+instanceKlass org/aspectj/bridge/IMessageHandler
+instanceKlass sun/launcher/LauncherHelper$FXHelper
+instanceKlass org/aspectj/tools/ajc/Main
+instanceKlass java/io/FilePermission$1
+instanceKlass sun/net/www/MessageHeader
+instanceKlass java/net/URLConnection
+instanceKlass java/security/PermissionCollection
+instanceKlass sun/nio/ByteBuffered
+instanceKlass sun/security/util/ManifestEntryVerifier
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$1
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$Constraint
+instanceKlass java/util/regex/Matcher
+instanceKlass java/util/regex/MatchResult
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$Constraints

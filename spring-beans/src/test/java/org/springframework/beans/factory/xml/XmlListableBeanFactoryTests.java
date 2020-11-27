@@ -27,6 +27,7 @@ import org.junit.Test;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.support.RootBeanDefinition;
@@ -131,7 +132,9 @@ public class XmlListableBeanFactoryTests extends AbstractListableBeanFactoryTest
 	 */
 	@Test
 	public void autoAliasing() {
-		List beanNames = Arrays.asList(getListableBeanFactory().getBeanDefinitionNames());
+		ListableBeanFactory BeanFactory = getListableBeanFactory();
+		String[] beanDefinitionNames = BeanFactory.getBeanDefinitionNames();
+		List beanNames = Arrays.asList(beanDefinitionNames);
 
 		TestBean tb1 = (TestBean) getBeanFactory().getBean("aliased");
 		TestBean alias1 = (TestBean) getBeanFactory().getBean("myalias");
